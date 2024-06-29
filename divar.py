@@ -21,14 +21,14 @@ elements = browser.find_elements(By.XPATH, pth)
 
 id = 0
 item = {}
-try:
-    for elm in elements:
-        with open(f"out/{OUT}.txt", 'a', encoding='utf-8') as file:
-            file.write(elm.find_element(By.CLASS_NAME, "kt-post-card__title"))
+for elm in elements:
+    with open(f"out/{OUT}.txt", 'a', encoding='utf-8') as file:
+        file.write(elm.find_element(By.CLASS_NAME, "kt-post-card__title").text + " - ")
+        for x in elm.find_elements(By.CLASS_NAME, "kt-post-card__description"):
+            file.write(x.text + '\n')
 
-    log("[DONE]", True)
-except:
-    log("[FAILED]", True)
+log("[DONE]", True)
+
 
 log("Quiting the application...")
 browser.quit()
