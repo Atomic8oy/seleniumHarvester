@@ -15,7 +15,8 @@ digits = {
 def convertDigits(inp:str)->str:
     out = ""
     for n in inp:
-        out += digits[n]
+        if n in digits:
+            out += digits[n]
     return out
 
 onLine = False
