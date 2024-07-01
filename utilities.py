@@ -20,7 +20,6 @@ def convertDigits(inp:str)->str:
     return out
 
 onLine = False
-
 def log(string: str, newLine: bool = False)-> None:
     global onLine
 
