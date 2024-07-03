@@ -9,8 +9,8 @@ digikala, divar
 (divar) city's name
 
 ### out:
-output file to save the data in ({out}.json)
-if empthy it uses the keyword
+output file to save the data in ({out}.json)\n
+if it was empty it uses the keyword
 
 ### scroll:
 How many times the app scrolls down
