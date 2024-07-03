@@ -60,7 +60,7 @@ for x in range(SCROLL):
                 continue
         log("[DONE]", True)
 
-        log("Paring the red descriptions")
+        log("Parsing the red descriptions")
         try:
             x = elm.find_element(By.CLASS_NAME, "kt-post-card__red-text")
             row = x.text
@@ -90,7 +90,7 @@ for x in range(SCROLL):
     browser.execute_script(f"window.scrollBy(0,{SCROLL_AMOUNT})")
     log("[DONE]", True)
 
-with open(f"out/{OUT}.json", 'w', encoding='utf-8') as file:
+with open(f"out/{OUT}.json", 'w') as file:
     log(f"Writing the data in [out/{OUT}.json]")
     file.write(dumps(items)+"\n")
     log("[DONE]", True)
