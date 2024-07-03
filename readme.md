@@ -11,3 +11,9 @@ digikala, divar
 ### out:
 output file to save the data in ({out}.json)
 if empthy it uses the keyword
+
+### scroll:
+How many times the app scrolls down
+
+### scrollAmount:
+How much should app scroll down by pixels

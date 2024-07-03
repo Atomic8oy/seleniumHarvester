@@ -38,3 +38,8 @@ def log(string: str, newLine: bool = False)-> None:
     else:
         raise("An unexpected error happened in logging.")
     
+def exists(item: dict, items: dict):
+    for data in items.values():
+        if data == item:
+            return True
+    return False

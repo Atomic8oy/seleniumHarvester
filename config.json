@@ -1,5 +1,7 @@
 {
     "website": "divar",
     "keyword": "gorgan",
-    "out": ""
+    "out": "",
+    "scroll": 10,
+    "scrollAmount": 1500
 }

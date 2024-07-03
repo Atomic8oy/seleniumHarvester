@@ -2,28 +2,29 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 from json import dumps
+from time import sleep
 
-from config import KEYWORD, OUT
-from utilities import log, convertDigits
+from config import KEYWORD, OUT, SCROLL, SCROLL_AMOUNT
+from utilities import log, convertDigits, exists
 
 log("Creating the webdriver")
 browser = webdriver.Chrome()
 log("[DONE]", True)
 
-browser.implicitly_wait(10.0)
+browser.implicitly_wait(5.0)
 
 log(f"Heading to [https://divar.ir/s/{KEYWORD}/real-estate]")
 browser.get(f"https://divar.ir/s/{KEYWORD}/real-estate")
 log("[DONE]", True)
 
-log("Getting the main element")
-pth = '//*[@id="post-list-container-id"]/div[1]/div/div/div/div/div/div'
-elements = browser.find_elements(By.XPATH, pth)
-log("[DONE]", True)
-
 id = 0
 items = {}
-with open(f"out/{OUT}.json", 'w', encoding='utf-8') as file:
+for x in range(SCROLL):
+    log("Getting the main element")
+    pth = '//*[@id="post-list-container-id"]/div[1]/div/div/div/div/div/div'
+    elements = browser.find_elements(By.XPATH, pth)
+    log("[DONE]", True)
+
     for elm in elements:
         log("Parsing the gray descriptions")
         title = None
@@ -71,7 +72,7 @@ with open(f"out/{OUT}.json", 'w', encoding='utf-8') as file:
         except NoSuchElementException:
             log("[NOT FOUND]", True)
 
-        items.update({id: {
+        item = {
             "title": title,
             "promis": promis,
             "rent": rent, 
@@ -79,10 +80,17 @@ with open(f"out/{OUT}.json", 'w', encoding='utf-8') as file:
             "inHurry": inHurry, 
             "isLaddered": isLaddered,
             "fullRent": fullRent
-        }})
+        }
 
-        id += 1
-        
+        if not exists(item, items):
+            items.update({id: item})
+            id += 1
+
+    log("Scrolling down")
+    browser.execute_script(f"window.scrollBy(0,{SCROLL_AMOUNT})")
+    log("[DONE]", True)
+
+with open(f"out/{OUT}.json", 'w', encoding='utf-8') as file:
     log(f"Writing the data in [out/{OUT}.json]")
     file.write(dumps(items)+"\n")
     log("[DONE]", True)

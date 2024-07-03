@@ -9,3 +9,6 @@ if data['out'] == "":
     OUT = KEYWORD
 else:
     OUT = data['out']
+
+SCROLL = data['scroll']
+SCROLL_AMOUNT = data['scrollAmount']
