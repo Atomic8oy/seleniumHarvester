@@ -43,3 +43,12 @@ def exists(item: dict, items: dict):
         if data == item:
             return True
     return False
+
+def convertToTitle(columnNumber: int) -> str:
+        out = ""
+        while columnNumber > 0:
+            print(columnNumber)
+            columnNumber -= 1
+            out += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[columnNumber%26] 
+            columnNumber = int(columnNumber/26)
+        return out[::-1]

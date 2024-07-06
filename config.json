@@ -2,6 +2,7 @@
     "website": "divar",
     "keyword": "gorgan",
     "out": "",
+    "excel": false,
     "scroll": 10,
     "scrollAmount": 1500
 }

@@ -10,5 +10,7 @@ if data['out'] == "":
 else:
     OUT = data['out']
 
+EXCEL = data['excel']
+
 SCROLL = data['scroll']
 SCROLL_AMOUNT = data['scrollAmount']

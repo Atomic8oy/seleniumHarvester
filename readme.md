@@ -12,6 +12,9 @@ digikala, divar
 output file to save the data in ({out}.json)\n
 if it was empty it uses the keyword
 
+### excel:
+excel output, true/false
+
 ### scroll:
 How many times the app scrolls down
 
