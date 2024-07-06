@@ -73,7 +73,7 @@ for x in range(SCROLL):
             log("[NOT FOUND]", True)
 
         item = {
-            "title": title,
+            "title": title.replace("/", " ").split(" "),
             "promis": promis,
             "rent": rent, 
             "price": price, 
