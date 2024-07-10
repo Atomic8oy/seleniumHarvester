@@ -5,10 +5,10 @@ with open("config.json", 'r') as configFile:
 
 WEBSITE = data["website"]
 KEYWORD = data["keyword"]
-if data['out'] == "":
+if data["out"] == "":
     OUT = KEYWORD
 else:
-    OUT = data['out']
+    OUT = data["out"]
 
 EXCEL = data['excel']
 

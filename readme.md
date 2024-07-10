@@ -2,11 +2,12 @@
 
 ### target:
 The target website:
-digikala, divar
+digikala, divar, tsetmc
 
 ### keyword: 
 (digikala) a keyword to search in digikala
 (divar) city's name
+(tsetmc) https://www.tsetmc.com/instInfo/{keyword}
 
 ### out:
 output file to save the data in ({out}.json)\n
