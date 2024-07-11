@@ -25,7 +25,7 @@ log("[DONE]", True)
 
 items = {}
 for x in range(540, 862):
-    log(f"Reading {int(x/60)}:{x-int(x/60)*60}")
+    log(f"Reading {int(x/60)}:{x%60}")
     pth = "/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]"
     elm = driver.find_element(By.XPATH, pth)
     price = elm.text.replace("آخرین معامله ", "")
