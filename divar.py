@@ -18,7 +18,7 @@ browser.get(f"https://divar.ir/s/{KEYWORD}/real-estate")
 log("[DONE]", True)
 
 id = 0
-items = {}
+items = []
 for x in range(SCROLL):
     log("Getting the main element")
     pth = '//*[@id="post-list-container-id"]/div[1]/div/div/div/div/div/div'
@@ -83,7 +83,8 @@ for x in range(SCROLL):
         }
 
         if not exists(item, items):
-            items.update({id: item})
+            item.update({"id": id})
+            items.append(item)
             id += 1
 
     log("Scrolling down")

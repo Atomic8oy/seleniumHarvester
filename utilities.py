@@ -32,14 +32,14 @@ def log(string: str, newLine: bool = False)-> None:
     elif newLine and not onLine:
         print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}")
         onLine = False
-    elif not newLine and onLine:
+    elif not (newLine and onLine):
         print(string, end=" ")
         onLine = True
     else:
         raise("An unexpected error happened in logging.")
     
-def exists(item: dict, items: dict):
-    for data in items.values():
+def exists(item: dict, items: dict)-> bool:
+    for data in items:
         if data == item:
             return True
     return False

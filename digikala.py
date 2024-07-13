@@ -23,7 +23,7 @@ for x in range(SCROLL):
 
 
     log("Harvesting and converting data")
-    items = {}
+    items = []
     special = False
     id = 0
     for elm in elements:
@@ -34,7 +34,8 @@ for x in range(SCROLL):
 
         item = {"price": price, "isSpecial": special}
         if not exists(item, items):
-            items.update({id : item})
+            item.update({"id": id})
+            items.append(item)
             id += 1
         special = False
         

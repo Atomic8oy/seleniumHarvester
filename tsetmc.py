@@ -23,7 +23,7 @@ for x in range(540, 862):
     slider.send_keys(Keys.ARROW_RIGHT)
 log("[DONE]", True)
 
-items = {}
+items = []
 for x in range(540, 862):
     log(f"Reading {int(x/60)}:{x%60}")
     pth = "/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]"
@@ -33,7 +33,7 @@ for x in range(540, 862):
     price = price.replace(")", "")
     price = price.replace(",", "")
     price = price.split(" ")
-    items.update({x:{"price": price[0]}})
+    items.append({"time": x ,"price": price[0]})
     log("[DONE]", True)
     slider.send_keys(Keys.ARROW_LEFT)
 
