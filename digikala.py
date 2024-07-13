@@ -48,5 +48,4 @@ with open(f"out/{OUT}.json", 'w') as file:
     file.write(dumps(items))
 log("[DONE]", True)
 
-log("Quiting the application...")
 browser.quit()
