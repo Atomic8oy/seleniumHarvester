@@ -28,6 +28,7 @@ driver.implicitly_wait(0.0)
 items = []
 for x in range(540, 862):
     log(f"Reading {int(x/60)}:{x%60}")
+
     pth = '/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]'
     elm = driver.find_element(By.XPATH, pth)
     price = elm.text
@@ -37,9 +38,33 @@ for x in range(540, 862):
         price = price.replace(change, "")
     except NoSuchElementException:
         change = None
-    items.append({"time": x ,"price": price, "change": change})
-    log("[DONE]", True)
+    
+    transactionsCount = driver.find_element(
+        By.XPATH,
+        '//*[@id="MainContent"]/div[1]/div[4]/div[3]/table/tr[1]'
+    ).text.replace("تعداد معاملات ", "")
+
+    transactionsMass = driver.find_element(
+        By.XPATH,
+        '//*[@id="MainContent"]/div[1]/div[4]/div[3]/table/tr[2]'
+    ).text.replace("حجم معاملات ", "")
+
+    transactionsWorth = driver.find_element(
+        By.XPATH,
+        '//*[@id="MainContent"]/div[1]/div[4]/div[3]/table/tr[3]'
+    ).text.replace("ارزش معاملات ", "")
+
+    items.append({
+        "time": x ,
+        "price": price, 
+        "change": change, 
+        "transactionCount": transactionsCount,
+        "transactionsMass": transactionsMass,
+        "transactionsWorth": transactionsWorth
+    })
+
     slider.send_keys(Keys.ARROW_LEFT)
+    log("[DONE]", True)
 
 log(f"Writing the result in [out/{OUT}.json]")
 with open(f"out/{OUT}.json", 'w') as file:
