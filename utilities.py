@@ -23,18 +23,18 @@ class Logger():
     def __init__(self):
         self.onLine = False
     
-    def log(self, string, newLine):
+    def log(self, string:str, newLine:bool = False)-> None:
         if self.onLine and newLine:
             print(string)
             self.onLine = False
         elif self.onLine and (newLine == False):
-            print(string, end="")
+            print(string, end=" ")
             self.onLine = True
         elif (self.onLine == False) and newLine:
             print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}")
             self.onLine = False
         elif (self.onLine == False) and (newLine == False):
-            print(f"{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')} {string}", end="")
+            print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}", end=" ")
             self.onLine = True
         else:
             raise("an unexpected error happened while logging.")
