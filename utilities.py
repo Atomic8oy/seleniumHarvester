@@ -18,25 +18,27 @@ def convertDigits(inp:str)->str:
         if n in digits:
             out += digits[n]
     return out
+    
+class Logger():
+    def __init__(self):
+        self.onLine = False
+    
+    def log(self, string, newLine):
+        if self.onLine and newLine:
+            print(string)
+            self.onLine = False
+        elif self.onLine and (newLine == False):
+            print(string, end="")
+            self.onLine = True
+        elif (self.onLine == False) and newLine:
+            print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}")
+            self.onLine = False
+        elif (self.onLine == False) and (newLine == False):
+            print(f"{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')} {string}", end="")
+            self.onLine = True
+        else:
+            raise("an unexpected error happened while logging.")
 
-onLine = False
-def log(string: str, newLine: bool = False)-> None:
-    global onLine
-
-    if newLine and onLine:
-        print(string)
-        onLine = False
-    elif not (newLine and onLine):
-        print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}", end=" ")
-        onLine = True
-    elif newLine and not onLine:
-        print(f"[{datetime.now().strftime('%Y/%m/%d %I:%M:%S%p')}] {string}")
-        onLine = False
-    elif not (newLine and onLine):
-        print(string, end=" ")
-        onLine = True
-    else:
-        raise("An unexpected error happened in logging.")
     
 def exists(item: dict, items: dict)-> bool:
     for data in items:
