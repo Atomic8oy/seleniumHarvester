@@ -1,5 +1,7 @@
 from config import WEBSITE, EXCEL
-from utilities import log
+from utilities import Logger
+
+logging = Logger()
 
 if WEBSITE == "digikala":
     import digikala
@@ -8,12 +10,12 @@ elif WEBSITE == "divar":
 elif WEBSITE == "tsetmc":
     import tsetmc
 else:
-    log("Website variable in config file is not valid.\nPlease read the readme.md")
+    raise(f"This app doesn't support {WEBSITE}.\nCheck for typos or new updates.")
 
 if EXCEL:
     from config import OUT
-    log(f"Saving as excel in [out/{OUT}.json]")
+    logging.log(f"Saving as excel in [out/{OUT}.json]")
     import pandas
 
     pandas.read_json(f"out/{OUT}.json").to_excel(f"out/{OUT}.xlsx")
-    log("[DONE]")
+    logging.log("[DONE]", True)
