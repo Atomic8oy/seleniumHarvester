@@ -17,19 +17,17 @@ logger.log(f"Heading to [https://www.tsetmc.com/History/{KEYWORD}]")
 driver.get(f"https://www.tsetmc.com/History/{KEYWORD}")
 logger.log("[DONE]", True)
 
-logger.log("Doing the range bar thing")
 pth = "/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[2]/span/span[3]"
 slider = driver.find_element(By.XPATH, pth)
 slider.click()
-for x in range(540, 862):
-    slider.send_keys(Keys.ARROW_RIGHT)
-logger.log("[DONE]", True)
 
 driver.implicitly_wait(0.0)
 
 items = []
-for x in range(540, 862):
-    logger.log(f"Reading {int(x/60)}:{x%60}")
+time = 0
+while (time != 540):
+    time = int(slider.get_attribute("aria-valuenow"))
+    logger.log(f"Reading {int(time/60)}:{time%60}")
 
     pth = '/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]'
     elm = driver.find_element(By.XPATH, pth)
@@ -56,16 +54,16 @@ for x in range(540, 862):
         '//*[@id="MainContent"]/div[1]/div[4]/div[3]/table/tr[3]'
     ).text.replace("ارزش معاملات ", "")
 
-    items.append({
-        "time": x ,
-        "price": price, 
+    items.insert(0, {
+        "time": time ,
+        "price": int(price.replace(",", "")), 
         "change": change, 
         "transactionCount": transactionsCount,
         "transactionsMass": transactionsMass,
         "transactionsWorth": transactionsWorth
     })
 
-    slider.send_keys(Keys.ARROW_LEFT)
+    slider.send_keys(Keys.RIGHT)
     logger.log("[DONE]", True)
 
 logger.log(f"Writing the result in [out/{OUT}.json]")
