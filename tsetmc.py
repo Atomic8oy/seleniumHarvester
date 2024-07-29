@@ -17,7 +17,7 @@ driver.implicitly_wait(5.0)
 
 logger.log(f"Heading to [https://www.tsetmc.com/History/{KEYWORD}]")
 driver.get(f"https://www.tsetmc.com/History/{KEYWORD}")
-logger.log("[DONE]", True)
+logger.done()
 
 pth = "/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[2]/span/span[3]"
 slider = driver.find_element(By.XPATH, pth)
@@ -68,7 +68,7 @@ while (time != 540):
     })
 
     slider.send_keys(Keys.RIGHT)
-    logger.log("[DONE]", True)
+    logger.done()
 
 logger.log(f"Saving as a plot [out/{OUT}.png]")
 x = numpy.array([sub["time"] for sub in items])
@@ -80,11 +80,11 @@ pyplot.ylabel("Prices")
 pyplot.xlabel("Time (n/60:n%60)")
 pyplot.grid()
 pyplot.savefig(f"out/{OUT}.png")
-logger.log("[DONE]", True)
+logger.done()
 
 logger.log(f"Writing the result in [out/{OUT}.json]")
 with open(f"out/{OUT}.json", 'w') as file:
     file.write(dumps(items))
-logger.log("[DONE]", True)
+logger.done()
 
 driver.quit()

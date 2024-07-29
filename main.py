@@ -18,4 +18,4 @@ if EXCEL:
     import pandas
 
     pandas.read_json(f"out/{OUT}.json").to_excel(f"out/{OUT}.xlsx")
-    logging.log("[DONE]", True)
+    logging.done()

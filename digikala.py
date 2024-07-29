@@ -9,11 +9,11 @@ logger = Logger()
 
 logger.log("Creating the webdriver")
 browser = webdriver.Chrome()
-logger.log("[DONE]", True)
+logger.done()
 
 logger.log(f"Heading to [https://www.digikala.com/search/?q={KEYWORD}]")
 browser.get(f"https://www.digikala.com/search/?q={KEYWORD}")
-logger.log("[DONE]", True)
+logger.done()
 
 browser.implicitly_wait(10.0)
 
@@ -21,7 +21,7 @@ for x in range(SCROLL):
     logger.log("Getting price elements")
     pth = "//*[@id='ProductListPagesWrapper']/section[1]/div[2]/div/a/div/article/div[2]/div[2]/div[4]/div[1]/div/span"
     elements = browser.find_elements(By.XPATH, pth)
-    logger.log("[DONE]", True)
+    logger.done()
 
 
     logger.log("Harvesting and converting data")
@@ -41,13 +41,13 @@ for x in range(SCROLL):
             id += 1
         special = False
         
-    logger.log("[DONE]", True)
+    logger.done()
 
     browser.execute_script(f"window.scrollBy(0,{SCROLL_AMOUNT})")
 
 logger.log(f"Writing output data in out/{OUT}.json")
 with open(f"out/{OUT}.json", 'w') as file:
     file.write(dumps(items))
-logger.log("[DONE]", True)
+logger.done()
 
 browser.quit()

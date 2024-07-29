@@ -11,13 +11,13 @@ logger = Logger()
 
 logger.log("Creating the webdriver")
 browser = webdriver.Chrome()
-logger.log("[DONE]", True)
+logger.done()
 
 browser.implicitly_wait(5.0)
 
 logger.log(f"Heading to [https://divar.ir/s/{KEYWORD}/real-estate]")
 browser.get(f"https://divar.ir/s/{KEYWORD}/real-estate")
-logger.log("[DONE]", True)
+logger.done()
 
 id = 0
 items = []
@@ -25,7 +25,7 @@ for x in range(SCROLL):
     logger.log("Getting the main element")
     pth = '//*[@id="post-list-container-id"]/div[1]/div/div/div/div/div/div'
     elements = browser.find_elements(By.XPATH, pth)
-    logger.log("[DONE]", True)
+    logger.done()
 
     for elm in elements:
         logger.log("Parsing the gray descriptions")
@@ -60,7 +60,7 @@ for x in range(SCROLL):
             if "رهن کامل" in row:
                 fullRent = True
                 continue
-        logger.log("[DONE]", True)
+        logger.done()
 
         logger.log("Parsing the red descriptions")
         try:
@@ -70,7 +70,7 @@ for x in range(SCROLL):
                 isLaddered = True
             if "فوری" in row:
                 inHurry = True
-            logger.log("[DONE]", True)
+            logger.done()
         except NoSuchElementException:
             logger.log("[NOT FOUND]", True)
 
@@ -91,11 +91,11 @@ for x in range(SCROLL):
 
     logger.log("Scrolling down")
     browser.execute_script(f"window.scrollBy(0,{SCROLL_AMOUNT})")
-    logger.log("[DONE]", True)
+    logger.done()
 
 with open(f"out/{OUT}.json", 'w') as file:
     logger.log(f"Writing the data in [out/{OUT}.json]")
     file.write(dumps(items)+"\n")
-    logger.log("[DONE]", True)
+    logger.done()
 
 browser.quit()
