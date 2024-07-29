@@ -2,7 +2,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
+from matplotlib import pyplot
 from json import dumps
+import numpy
 
 from config import KEYWORD, OUT
 from utilities import Logger
@@ -27,7 +29,7 @@ items = []
 time = 0
 while (time != 540):
     time = int(slider.get_attribute("aria-valuenow"))
-    logger.log(f"Reading {int(time/60)}:{time%60}")
+    logger.log(f"Reading {int(time/60)}:{time%60 if len(str(time%60)) == 2 else '0'+str(time%60)}")
 
     pth = '/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]'
     elm = driver.find_element(By.XPATH, pth)
@@ -67,6 +69,18 @@ while (time != 540):
 
     slider.send_keys(Keys.RIGHT)
     logger.log("[DONE]", True)
+
+logger.log(f"Saving as a plot [out/{OUT}.png]")
+x = numpy.array([sub["time"] for sub in items])
+y = numpy.array([sub["price"] for sub in items])
+
+pyplot.plot(x,y)
+pyplot.title("Prices")
+pyplot.ylabel("Prices")
+pyplot.xlabel("Time (n/60:n%60)")
+pyplot.grid()
+pyplot.savefig(f"out/{OUT}.png")
+logger.log("[DONE]", True)
 
 logger.log(f"Writing the result in [out/{OUT}.json]")
 with open(f"out/{OUT}.json", 'w') as file:
