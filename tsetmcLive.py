@@ -26,12 +26,15 @@ try:
 except:
     history = []
 
+save = 0
+
 price = None
 try:
     while True:
         if price == int(driver.title.replace("خودرو ", "").replace(",", "")):
             continue
 
+        save += 1
         price = int(driver.title.replace("خودرو ", "").replace(",", ""))
         time = datetime.now().timestamp()
         
@@ -41,6 +44,12 @@ try:
             "timestamp": time,
             "price": price 
         })
+        
+        if save == 10:
+            file = open(f"out/{OUT}-{date}.json", 'w')
+            file.write(dumps(history))
+            file.close()
+            save = 0
 
 except KeyboardInterrupt:
     logger.log(f"Saving the output in [out/{OUT}-{date}.json]")
