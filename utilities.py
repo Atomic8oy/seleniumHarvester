@@ -38,6 +38,10 @@ class Logger():
             self.onLine = True
         else:
             raise("an unexpected error happened while logging.")
+    
+    def done(self)-> None:
+        print("[DONE]")
+        self.onLine = False
 
     
 def exists(item: dict, items: dict)-> bool:
