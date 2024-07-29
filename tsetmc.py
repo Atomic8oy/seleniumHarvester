@@ -36,6 +36,8 @@ while (time != 540):
     try:
         change = elm.find_element(By.XPATH, '//*[@id="d02"]/span').text
         price = price.replace(change, "")
+        change = float(change[change.index("(")+1:change.index("%")])
+
     except NoSuchElementException:
         change = None
     
@@ -58,9 +60,9 @@ while (time != 540):
         "time": time ,
         "price": int(price.replace(",", "")), 
         "change": change, 
-        "transactionCount": transactionsCount,
-        "transactionsMass": transactionsMass,
-        "transactionsWorth": transactionsWorth
+        "transactionCount": int(transactionsCount.replace(",", "")),
+        "transactionsMass": int(transactionsMass.replace(",", "")),
+        "transactionsWorth": int(transactionsWorth.replace(",", ""))
     })
 
     slider.send_keys(Keys.RIGHT)
