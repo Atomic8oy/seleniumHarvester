@@ -1,8 +1,8 @@
 {
-    "website": "tsetmc",
-    "keyword": "65883838195688438/20240710",
+    "website": "tsetmcLive",
+    "keyword": "65883838195688438",
     "out": "irankhodro",
-    "excel": true,
+    "excel": false,
     "scroll": 10,
     "scrollAmount": 1500
 }

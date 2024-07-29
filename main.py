@@ -9,6 +9,8 @@ elif WEBSITE == "divar":
     import divar
 elif WEBSITE == "tsetmc":
     import tsetmc
+elif WEBSITE == "tsetmcLive":
+    import tsetmcLive
 else:
     raise(f"This app doesn't support {WEBSITE}.\nCheck for typos or new updates.")
 
