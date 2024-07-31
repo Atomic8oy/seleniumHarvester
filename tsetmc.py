@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 from matplotlib import pyplot
+from time import sleep
 from json import dumps
 import numpy
 
@@ -22,6 +23,8 @@ logger.done()
 pth = "/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[2]/span/span[3]"
 slider = driver.find_element(By.XPATH, pth)
 slider.click()
+
+sleep(2.0)
 
 driver.implicitly_wait(0.0)
 
