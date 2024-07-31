@@ -35,7 +35,7 @@ try:
             continue
 
         save += 1
-        price = int(driver.title.replace("فولاد ", "").replace(",", ""))
+        price = int(driver.title.split(" ")[1].replace(",", ""))
         time = datetime.now().timestamp()
         
         logger.log(price, True)
