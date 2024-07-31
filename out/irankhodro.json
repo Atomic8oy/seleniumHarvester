@@ -1,1 +1,2290 @@
-[{"time": 540, "price": 2919, "change": null, "transactionCount": 0, "transactionsMass": 0, "transactionsWorth": 0}, {"time": 541, "price": 2896, "change": 1.9, "transactionCount": 24, "transactionsMass": 313657, "transactionsWorth": 909192872}, {"time": 542, "price": 2883, "change": 2.34, "transactionCount": 48, "transactionsMass": 563543, "transactionsWorth": 1631481147}, {"time": 543, "price": 2880, "change": 2.44, "transactionCount": 77, "transactionsMass": 880071, "transactionsWorth": 2543815588}, {"time": 544, "price": 2880, "change": 2.44, "transactionCount": 105, "transactionsMass": 1775306, "transactionsWorth": 5119459294}, {"time": 545, "price": 2878, "change": 2.51, "transactionCount": 126, "transactionsMass": 2320816, "transactionsWorth": 6689792951}, {"time": 546, "price": 2890, "change": 2.1, "transactionCount": 145, "transactionsMass": 2980126, "transactionsWorth": 8589893408}, {"time": 547, "price": 2895, "change": 1.93, "transactionCount": 162, "transactionsMass": 3322002, "transactionsWorth": 9578625758}, {"time": 548, "price": 2895, "change": 1.93, "transactionCount": 174, "transactionsMass": 4227106, "transactionsWorth": 12197177448}, {"time": 549, "price": 2890, "change": 2.1, "transactionCount": 184, "transactionsMass": 4567511, "transactionsWorth": 13182267898}, {"time": 550, "price": 2886, "change": 2.24, "transactionCount": 189, "transactionsMass": 4640511, "transactionsWorth": 13393177898}, {"time": 551, "price": 2881, "change": 2.41, "transactionCount": 216, "transactionsMass": 5369786, "transactionsWorth": 15496720573}, {"time": 552, "price": 2883, "change": 2.34, "transactionCount": 232, "transactionsMass": 5761022, "transactionsWorth": 16624693807}, {"time": 553, "price": 2919, "change": 1.12, "transactionCount": 272, "transactionsMass": 7910841, "transactionsWorth": 22844128280}, {"time": 554, "price": 2891, "change": 2.07, "transactionCount": 283, "transactionsMass": 8385168, "transactionsWorth": 24217046120}, {"time": 555, "price": 2945, "change": 0.24, "transactionCount": 329, "transactionsMass": 10006853, "transactionsWorth": 28965086519}, {"time": 556, "price": 2937, "change": 0.51, "transactionCount": 354, "transactionsMass": 10601302, "transactionsWorth": 30712516140}, {"time": 557, "price": 2927, "change": 0.85, "transactionCount": 374, "transactionsMass": 11132677, "transactionsWorth": 32272050781}, {"time": 558, "price": 2926, "change": 0.88, "transactionCount": 388, "transactionsMass": 11914321, "transactionsWorth": 34559751819}, {"time": 559, "price": 2923, "change": 0.98, "transactionCount": 412, "transactionsMass": 13312488, "transactionsWorth": 38647174650}, {"time": 560, "price": 2917, "change": 1.19, "transactionCount": 427, "transactionsMass": 14610363, "transactionsWorth": 42436829428}, {"time": 561, "price": 2916, "change": 1.22, "transactionCount": 436, "transactionsMass": 14954425, "transactionsWorth": 43440131453}, {"time": 562, "price": 2914, "change": 1.29, "transactionCount": 442, "transactionsMass": 15239421, "transactionsWorth": 44270822016}, {"time": 563, "price": 2911, "change": 1.39, "transactionCount": 453, "transactionsMass": 16186264, "transactionsWorth": 47028366488}, {"time": 564, "price": 2909, "change": 1.46, "transactionCount": 462, "transactionsMass": 16556125, "transactionsWorth": 48104572697}, {"time": 565, "price": 2910, "change": 1.42, "transactionCount": 473, "transactionsMass": 16786515, "transactionsWorth": 48775026544}, {"time": 566, "price": 2910, "change": 1.42, "transactionCount": 484, "transactionsMass": 17817125, "transactionsWorth": 51773635551}, {"time": 567, "price": 2910, "change": 1.42, "transactionCount": 499, "transactionsMass": 18770462, "transactionsWorth": 54549813045}, {"time": 568, "price": 2911, "change": 1.39, "transactionCount": 507, "transactionsMass": 18827477, "transactionsWorth": 54715827710}, {"time": 569, "price": 2911, "change": 1.39, "transactionCount": 514, "transactionsMass": 19233819, "transactionsWorth": 55898715623}, {"time": 570, "price": 2913, "change": 1.32, "transactionCount": 536, "transactionsMass": 19742964, "transactionsWorth": 57381605121}, {"time": 571, "price": 2911, "change": 1.39, "transactionCount": 550, "transactionsMass": 20379951, "transactionsWorth": 59235798608}, {"time": 572, "price": 2911, "change": 1.39, "transactionCount": 567, "transactionsMass": 21098352, "transactionsWorth": 61327239128}, {"time": 573, "price": 2910, "change": 1.42, "transactionCount": 579, "transactionsMass": 21770681, "transactionsWorth": 63283749018}, {"time": 574, "price": 2906, "change": 1.56, "transactionCount": 604, "transactionsMass": 24195531, "transactionsWorth": 70337053340}, {"time": 575, "price": 2906, "change": 1.56, "transactionCount": 611, "transactionsMass": 24284531, "transactionsWorth": 70595692340}, {"time": 576, "price": 2905, "change": 1.59, "transactionCount": 628, "transactionsMass": 25376872, "transactionsWorth": 73769784227}, {"time": 577, "price": 2902, "change": 1.69, "transactionCount": 646, "transactionsMass": 26181783, "transactionsWorth": 76106312125}, {"time": 578, "price": 2904, "change": 1.63, "transactionCount": 660, "transactionsMass": 26504262, "transactionsWorth": 77041911151}, {"time": 579, "price": 2900, "change": 1.76, "transactionCount": 691, "transactionsMass": 28389706, "transactionsWorth": 82510766848}, {"time": 580, "price": 2900, "change": 1.76, "transactionCount": 701, "transactionsMass": 28655197, "transactionsWorth": 83280549352}, {"time": 581, "price": 2899, "change": 1.8, "transactionCount": 705, "transactionsMass": 28683413, "transactionsWorth": 83362352536}, {"time": 582, "price": 2899, "change": 1.8, "transactionCount": 717, "transactionsMass": 28937741, "transactionsWorth": 84099655908}, {"time": 583, "price": 2898, "change": 1.83, "transactionCount": 726, "transactionsMass": 29672741, "transactionsWorth": 86230079725}, {"time": 584, "price": 2897, "change": 1.86, "transactionCount": 736, "transactionsMass": 29735022, "transactionsWorth": 86410575397}, {"time": 585, "price": 2899, "change": 1.8, "transactionCount": 748, "transactionsMass": 30283982, "transactionsWorth": 88000738827}, {"time": 586, "price": 2899, "change": 1.8, "transactionCount": 757, "transactionsMass": 30951225, "transactionsWorth": 89933264555}, {"time": 587, "price": 2899, "change": 1.8, "transactionCount": 761, "transactionsMass": 31176225, "transactionsWorth": 90585429555}, {"time": 588, "price": 2897, "change": 1.86, "transactionCount": 769, "transactionsMass": 31987967, "transactionsWorth": 92938338873}, {"time": 589, "price": 2896, "change": 1.9, "transactionCount": 788, "transactionsMass": 32700301, "transactionsWorth": 95001340777}, {"time": 590, "price": 2895, "change": 1.93, "transactionCount": 796, "transactionsMass": 33115523, "transactionsWorth": 96203764467}, {"time": 591, "price": 2894, "change": 1.96, "transactionCount": 816, "transactionsMass": 34617900, "transactionsWorth": 100553835610}, {"time": 592, "price": 2893, "change": 2.0, "transactionCount": 828, "transactionsMass": 35441572, "transactionsWorth": 102937029393}, {"time": 593, "price": 2893, "change": 2.0, "transactionCount": 840, "transactionsMass": 36747687, "transactionsWorth": 106716794741}, {"time": 594, "price": 2894, "change": 1.96, "transactionCount": 850, "transactionsMass": 37308159, "transactionsWorth": 108338250237}, {"time": 595, "price": 2894, "change": 1.96, "transactionCount": 856, "transactionsMass": 37430105, "transactionsWorth": 108691048900}, {"time": 596, "price": 2892, "change": 2.03, "transactionCount": 861, "transactionsMass": 37674436, "transactionsWorth": 109397751285}, {"time": 597, "price": 2892, "change": 2.03, "transactionCount": 876, "transactionsMass": 38539844, "transactionsWorth": 111900914939}, {"time": 598, "price": 2891, "change": 2.07, "transactionCount": 888, "transactionsMass": 39557740, "transactionsWorth": 114844257075}, {"time": 599, "price": 2892, "change": 2.03, "transactionCount": 904, "transactionsMass": 40063595, "transactionsWorth": 116307189735}, {"time": 600, "price": 2890, "change": 2.1, "transactionCount": 923, "transactionsMass": 41132853, "transactionsWorth": 119397792418}, {"time": 601, "price": 2892, "change": 2.03, "transactionCount": 930, "transactionsMass": 41173034, "transactionsWorth": 119513955888}, {"time": 602, "price": 2894, "change": 1.96, "transactionCount": 945, "transactionsMass": 41960143, "transactionsWorth": 121789988200}, {"time": 603, "price": 2894, "change": 1.96, "transactionCount": 961, "transactionsMass": 43023840, "transactionsWorth": 124867659646}, {"time": 604, "price": 2895, "change": 1.93, "transactionCount": 977, "transactionsMass": 43631934, "transactionsWorth": 126627255601}, {"time": 605, "price": 2895, "change": 1.93, "transactionCount": 982, "transactionsMass": 43938434, "transactionsWorth": 127514363101}, {"time": 606, "price": 2895, "change": 1.93, "transactionCount": 993, "transactionsMass": 44055303, "transactionsWorth": 127852663056}, {"time": 607, "price": 2895, "change": 1.93, "transactionCount": 996, "transactionsMass": 44067303, "transactionsWorth": 127887411808}, {"time": 608, "price": 2895, "change": 1.93, "transactionCount": 1001, "transactionsMass": 44108543, "transactionsWorth": 128006821108}, {"time": 609, "price": 2895, "change": 1.93, "transactionCount": 1004, "transactionsMass": 44125593, "transactionsWorth": 128056190858}, {"time": 610, "price": 2895, "change": 1.93, "transactionCount": 1014, "transactionsMass": 44714114, "transactionsWorth": 129759950111}, {"time": 611, "price": 2899, "change": 1.8, "transactionCount": 1021, "transactionsMass": 45356342, "transactionsWorth": 131619957943}, {"time": 612, "price": 2900, "change": 1.76, "transactionCount": 1049, "transactionsMass": 45909251, "transactionsWorth": 133223191350}, {"time": 613, "price": 2900, "change": 1.76, "transactionCount": 1063, "transactionsMass": 46635899, "transactionsWorth": 135330976462}, {"time": 614, "price": 2903, "change": 1.66, "transactionCount": 1081, "transactionsMass": 47816761, "transactionsWorth": 138755881515}, {"time": 615, "price": 2903, "change": 1.66, "transactionCount": 1083, "transactionsMass": 48041761, "transactionsWorth": 139408756515}, {"time": 616, "price": 2900, "change": 1.76, "transactionCount": 1094, "transactionsMass": 48374480, "transactionsWorth": 140373688329}, {"time": 617, "price": 2897, "change": 1.86, "transactionCount": 1102, "transactionsMass": 49030584, "transactionsWorth": 142274896306}, {"time": 618, "price": 2896, "change": 1.9, "transactionCount": 1119, "transactionsMass": 50012856, "transactionsWorth": 145120829551}, {"time": 619, "price": 2896, "change": 1.9, "transactionCount": 1124, "transactionsMass": 50257186, "transactionsWorth": 145828410956}, {"time": 620, "price": 2896, "change": 1.9, "transactionCount": 1130, "transactionsMass": 50395193, "transactionsWorth": 146228081682}, {"time": 621, "price": 2893, "change": 2.0, "transactionCount": 1154, "transactionsMass": 52294814, "transactionsWorth": 151724510884}, {"time": 622, "price": 2893, "change": 2.0, "transactionCount": 1159, "transactionsMass": 52662746, "transactionsWorth": 152788943560}, {"time": 623, "price": 2892, "change": 2.03, "transactionCount": 1177, "transactionsMass": 53677900, "transactionsWorth": 155725986612}, {"time": 624, "price": 2895, "change": 1.93, "transactionCount": 1179, "transactionsMass": 53684900, "transactionsWorth": 155746251612}, {"time": 625, "price": 2895, "change": 1.93, "transactionCount": 1188, "transactionsMass": 54175140, "transactionsWorth": 157164326652}, {"time": 626, "price": 2890, "change": 2.1, "transactionCount": 1219, "transactionsMass": 56332384, "transactionsWorth": 163399928876}, {"time": 627, "price": 2890, "change": 2.1, "transactionCount": 1227, "transactionsMass": 56796990, "transactionsWorth": 164742639216}, {"time": 628, "price": 2889, "change": 2.13, "transactionCount": 1238, "transactionsMass": 56879201, "transactionsWorth": 164980187062}, {"time": 629, "price": 2895, "change": 1.93, "transactionCount": 1251, "transactionsMass": 57563414, "transactionsWorth": 166958172632}, {"time": 630, "price": 2885, "change": 2.27, "transactionCount": 1308, "transactionsMass": 61595705, "transactionsWorth": 178600147086}, {"time": 631, "price": 2886, "change": 2.24, "transactionCount": 1315, "transactionsMass": 61930711, "transactionsWorth": 179566357646}, {"time": 632, "price": 2885, "change": 2.27, "transactionCount": 1329, "transactionsMass": 62520675, "transactionsWorth": 181268784221}, {"time": 633, "price": 2886, "change": 2.24, "transactionCount": 1334, "transactionsMass": 62560549, "transactionsWorth": 181383846585}, {"time": 634, "price": 2888, "change": 2.17, "transactionCount": 1347, "transactionsMass": 62641250, "transactionsWorth": 181616741039}, {"time": 635, "price": 2888, "change": 2.17, "transactionCount": 1356, "transactionsMass": 62753250, "transactionsWorth": 181940197039}, {"time": 636, "price": 2887, "change": 2.2, "transactionCount": 1360, "transactionsMass": 62840900, "transactionsWorth": 182193242589}, {"time": 637, "price": 2888, "change": 2.17, "transactionCount": 1380, "transactionsMass": 63542430, "transactionsWorth": 184219429194}, {"time": 638, "price": 2885, "change": 2.27, "transactionCount": 1395, "transactionsMass": 64551522, "transactionsWorth": 187131974197}, {"time": 639, "price": 2885, "change": 2.27, "transactionCount": 1408, "transactionsMass": 65463382, "transactionsWorth": 189762105707}, {"time": 640, "price": 2885, "change": 2.27, "transactionCount": 1417, "transactionsMass": 66185949, "transactionsWorth": 191846191502}, {"time": 641, "price": 2884, "change": 2.3, "transactionCount": 1443, "transactionsMass": 69444342, "transactionsWorth": 201246387497}, {"time": 642, "price": 2886, "change": 2.24, "transactionCount": 1469, "transactionsMass": 72287423, "transactionsWorth": 209450829652}, {"time": 643, "price": 2886, "change": 2.24, "transactionCount": 1486, "transactionsMass": 73713409, "transactionsWorth": 213566622587}, {"time": 644, "price": 2888, "change": 2.17, "transactionCount": 1505, "transactionsMass": 75114550, "transactionsWorth": 217609585339}, {"time": 645, "price": 2888, "change": 2.17, "transactionCount": 1519, "transactionsMass": 76207416, "transactionsWorth": 220763500337}, {"time": 646, "price": 2888, "change": 2.17, "transactionCount": 1527, "transactionsMass": 76309703, "transactionsWorth": 221058898185}, {"time": 647, "price": 2888, "change": 2.17, "transactionCount": 1536, "transactionsMass": 76702738, "transactionsWorth": 222193783265}, {"time": 648, "price": 2887, "change": 2.2, "transactionCount": 1545, "transactionsMass": 76888278, "transactionsWorth": 222729392324}, {"time": 649, "price": 2885, "change": 2.27, "transactionCount": 1569, "transactionsMass": 77711255, "transactionsWorth": 225104489341}, {"time": 650, "price": 2887, "change": 2.2, "transactionCount": 1573, "transactionsMass": 77986224, "transactionsWorth": 225898306844}, {"time": 651, "price": 2888, "change": 2.17, "transactionCount": 1590, "transactionsMass": 78589735, "transactionsWorth": 227640577154}, {"time": 652, "price": 2890, "change": 2.1, "transactionCount": 1602, "transactionsMass": 78884353, "transactionsWorth": 228491915404}, {"time": 653, "price": 2890, "change": 2.1, "transactionCount": 1606, "transactionsMass": 79009053, "transactionsWorth": 228852098404}, {"time": 654, "price": 2889, "change": 2.13, "transactionCount": 1616, "transactionsMass": 79054853, "transactionsWorth": 228984383404}, {"time": 655, "price": 2888, "change": 2.17, "transactionCount": 1631, "transactionsMass": 79587466, "transactionsWorth": 230523337974}, {"time": 656, "price": 2885, "change": 2.27, "transactionCount": 1656, "transactionsMass": 81072251, "transactionsWorth": 234807464709}, {"time": 657, "price": 2885, "change": 2.27, "transactionCount": 1691, "transactionsMass": 84540905, "transactionsWorth": 244808507926}, {"time": 658, "price": 2883, "change": 2.34, "transactionCount": 1706, "transactionsMass": 86364375, "transactionsWorth": 250065601936}, {"time": 659, "price": 2883, "change": 2.34, "transactionCount": 1717, "transactionsMass": 87022829, "transactionsWorth": 251963649067}, {"time": 660, "price": 2884, "change": 2.3, "transactionCount": 1721, "transactionsMass": 87090390, "transactionsWorth": 252158556904}, {"time": 661, "price": 2884, "change": 2.3, "transactionCount": 1728, "transactionsMass": 87162506, "transactionsWorth": 252366542212}, {"time": 662, "price": 2884, "change": 2.3, "transactionCount": 1752, "transactionsMass": 87468391, "transactionsWorth": 253248644106}, {"time": 663, "price": 2883, "change": 2.34, "transactionCount": 1756, "transactionsMass": 87481545, "transactionsWorth": 253286575743}, {"time": 664, "price": 2883, "change": 2.34, "transactionCount": 1759, "transactionsMass": 87681545, "transactionsWorth": 253863175743}, {"time": 665, "price": 2881, "change": 2.41, "transactionCount": 1782, "transactionsMass": 89062076, "transactionsWorth": 257841652790}, {"time": 666, "price": 2882, "change": 2.37, "transactionCount": 1791, "transactionsMass": 89131606, "transactionsWorth": 258042072250}, {"time": 667, "price": 2881, "change": 2.41, "transactionCount": 1807, "transactionsMass": 89760863, "transactionsWorth": 259854992143}, {"time": 668, "price": 2881, "change": 2.41, "transactionCount": 1815, "transactionsMass": 90360432, "transactionsWorth": 261582150432}, {"time": 669, "price": 2883, "change": 2.34, "transactionCount": 1824, "transactionsMass": 90450917, "transactionsWorth": 261842860322}, {"time": 670, "price": 2880, "change": 2.44, "transactionCount": 1836, "transactionsMass": 90776535, "transactionsWorth": 262780900036}, {"time": 671, "price": 2880, "change": 2.44, "transactionCount": 1855, "transactionsMass": 91217644, "transactionsWorth": 264051383763}, {"time": 672, "price": 2878, "change": 2.51, "transactionCount": 1884, "transactionsMass": 93421644, "transactionsWorth": 270398195193}, {"time": 673, "price": 2879, "change": 2.47, "transactionCount": 1887, "transactionsMass": 93457044, "transactionsWorth": 270500079793}, {"time": 674, "price": 2879, "change": 2.47, "transactionCount": 1889, "transactionsMass": 93571425, "transactionsWorth": 270829486473}, {"time": 675, "price": 2879, "change": 2.47, "transactionCount": 1891, "transactionsMass": 93629973, "transactionsWorth": 270998046165}, {"time": 676, "price": 2876, "change": 2.57, "transactionCount": 1937, "transactionsMass": 97079419, "transactionsWorth": 280927617183}, {"time": 677, "price": 2877, "change": 2.54, "transactionCount": 1956, "transactionsMass": 98027478, "transactionsWorth": 283653714163}, {"time": 678, "price": 2875, "change": 2.61, "transactionCount": 1967, "transactionsMass": 98234754, "transactionsWorth": 284249487613}, {"time": 679, "price": 2873, "change": 2.68, "transactionCount": 1981, "transactionsMass": 98853641, "transactionsWorth": 286027929563}, {"time": 680, "price": 2873, "change": 2.68, "transactionCount": 1987, "transactionsMass": 99276087, "transactionsWorth": 287242418655}, {"time": 681, "price": 2874, "change": 2.64, "transactionCount": 1989, "transactionsMass": 99280254, "transactionsWorth": 287254394613}, {"time": 682, "price": 2873, "change": 2.68, "transactionCount": 1991, "transactionsMass": 99288254, "transactionsWorth": 287277378613}, {"time": 683, "price": 2871, "change": 2.74, "transactionCount": 2010, "transactionsMass": 100148462, "transactionsWorth": 289747839295}, {"time": 684, "price": 2871, "change": 2.74, "transactionCount": 2031, "transactionsMass": 101105903, "transactionsWorth": 292496288595}, {"time": 685, "price": 2870, "change": 2.78, "transactionCount": 2048, "transactionsMass": 102019294, "transactionsWorth": 295118020679}, {"time": 686, "price": 2873, "change": 2.68, "transactionCount": 2057, "transactionsMass": 102197946, "transactionsWorth": 295631049518}, {"time": 687, "price": 2871, "change": 2.74, "transactionCount": 2061, "transactionsMass": 102250497, "transactionsWorth": 295782020939}, {"time": 688, "price": 2870, "change": 2.78, "transactionCount": 2065, "transactionsMass": 102391282, "transactionsWorth": 296186075889}, {"time": 689, "price": 2870, "change": 2.78, "transactionCount": 2095, "transactionsMass": 104701206, "transactionsWorth": 302815696033}, {"time": 690, "price": 2870, "change": 2.78, "transactionCount": 2116, "transactionsMass": 107149783, "transactionsWorth": 309843014492}, {"time": 691, "price": 2870, "change": 2.78, "transactionCount": 2128, "transactionsMass": 108145349, "transactionsWorth": 312700372617}, {"time": 692, "price": 2870, "change": 2.78, "transactionCount": 2148, "transactionsMass": 109881074, "transactionsWorth": 317681575144}, {"time": 693, "price": 2869, "change": 2.81, "transactionCount": 2161, "transactionsMass": 110801479, "transactionsWorth": 320323053584}, {"time": 694, "price": 2867, "change": 2.88, "transactionCount": 2173, "transactionsMass": 111364353, "transactionsWorth": 321937382969}, {"time": 695, "price": 2867, "change": 2.88, "transactionCount": 2180, "transactionsMass": 111604036, "transactionsWorth": 322624562166}, {"time": 696, "price": 2862, "change": 3.05, "transactionCount": 2218, "transactionsMass": 114838117, "transactionsWorth": 331888012477}, {"time": 697, "price": 2859, "change": 3.15, "transactionCount": 2250, "transactionsMass": 117097532, "transactionsWorth": 338349824907}, {"time": 698, "price": 2859, "change": 3.15, "transactionCount": 2264, "transactionsMass": 117531673, "transactionsWorth": 339591022431}, {"time": 699, "price": 2859, "change": 3.15, "transactionCount": 2273, "transactionsMass": 117691061, "transactionsWorth": 340046746365}, {"time": 700, "price": 2858, "change": 3.18, "transactionCount": 2287, "transactionsMass": 118474060, "transactionsWorth": 342284402001}, {"time": 701, "price": 2857, "change": 3.22, "transactionCount": 2310, "transactionsMass": 119173731, "transactionsWorth": 344283469792}, {"time": 702, "price": 2857, "change": 3.22, "transactionCount": 2321, "transactionsMass": 119572511, "transactionsWorth": 345422455238}, {"time": 703, "price": 2857, "change": 3.22, "transactionCount": 2343, "transactionsMass": 120512537, "transactionsWorth": 348107528050}, {"time": 704, "price": 2855, "change": 3.29, "transactionCount": 2346, "transactionsMass": 120553537, "transactionsWorth": 348224592050}, {"time": 705, "price": 2856, "change": 3.25, "transactionCount": 2356, "transactionsMass": 120754231, "transactionsWorth": 348797772368}, {"time": 706, "price": 2861, "change": 3.08, "transactionCount": 2372, "transactionsMass": 121375388, "transactionsWorth": 350573109089}, {"time": 707, "price": 2861, "change": 3.08, "transactionCount": 2384, "transactionsMass": 122406114, "transactionsWorth": 353521307987}, {"time": 708, "price": 2866, "change": 2.91, "transactionCount": 2392, "transactionsMass": 122657095, "transactionsWorth": 354240783933}, {"time": 709, "price": 2862, "change": 3.05, "transactionCount": 2397, "transactionsMass": 122786951, "transactionsWorth": 354612431805}, {"time": 710, "price": 2862, "change": 3.05, "transactionCount": 2403, "transactionsMass": 122933951, "transactionsWorth": 355033184125}, {"time": 711, "price": 2861, "change": 3.08, "transactionCount": 2424, "transactionsMass": 124542066, "transactionsWorth": 359637694989}, {"time": 712, "price": 2860, "change": 3.12, "transactionCount": 2436, "transactionsMass": 125578983, "transactionsWorth": 362603786293}, {"time": 713, "price": 2862, "change": 3.05, "transactionCount": 2440, "transactionsMass": 125587427, "transactionsWorth": 362627953021}, {"time": 714, "price": 2856, "change": 3.25, "transactionCount": 2463, "transactionsMass": 126189613, "transactionsWorth": 364349901731}, {"time": 715, "price": 2855, "change": 3.29, "transactionCount": 2478, "transactionsMass": 126995635, "transactionsWorth": 366651192282}, {"time": 716, "price": 2853, "change": 3.35, "transactionCount": 2505, "transactionsMass": 128795241, "transactionsWorth": 371787114742}, {"time": 717, "price": 2850, "change": 3.46, "transactionCount": 2566, "transactionsMass": 131578547, "transactionsWorth": 379722049384}, {"time": 718, "price": 2850, "change": 3.46, "transactionCount": 2571, "transactionsMass": 131640852, "transactionsWorth": 379899636736}, {"time": 719, "price": 2850, "change": 3.46, "transactionCount": 2592, "transactionsMass": 132013834, "transactionsWorth": 380962832087}, {"time": 720, "price": 2849, "change": 3.49, "transactionCount": 2619, "transactionsMass": 132790030, "transactionsWorth": 383174423686}, {"time": 721, "price": 2855, "change": 3.29, "transactionCount": 2629, "transactionsMass": 132995984, "transactionsWorth": 383761242605}, {"time": 722, "price": 2855, "change": 3.29, "transactionCount": 2637, "transactionsMass": 133035055, "transactionsWorth": 383872634765}, {"time": 723, "price": 2847, "change": 3.56, "transactionCount": 2667, "transactionsMass": 134856324, "transactionsWorth": 389059434910}, {"time": 724, "price": 2848, "change": 3.52, "transactionCount": 2683, "transactionsMass": 135473109, "transactionsWorth": 390815260796}, {"time": 725, "price": 2850, "change": 3.46, "transactionCount": 2704, "transactionsMass": 135737211, "transactionsWorth": 391568900681}, {"time": 726, "price": 2853, "change": 3.35, "transactionCount": 2716, "transactionsMass": 136278791, "transactionsWorth": 393112455261}, {"time": 727, "price": 2850, "change": 3.46, "transactionCount": 2734, "transactionsMass": 137475670, "transactionsWorth": 396524758004}, {"time": 728, "price": 2850, "change": 3.46, "transactionCount": 2742, "transactionsMass": 138021337, "transactionsWorth": 398079902906}, {"time": 729, "price": 2846, "change": 3.59, "transactionCount": 2768, "transactionsMass": 139277412, "transactionsWorth": 401656093595}, {"time": 730, "price": 2845, "change": 3.62, "transactionCount": 2789, "transactionsMass": 140208300, "transactionsWorth": 404304811663}, {"time": 731, "price": 2845, "change": 3.62, "transactionCount": 2804, "transactionsMass": 140766362, "transactionsWorth": 405892953639}, {"time": 732, "price": 2845, "change": 3.62, "transactionCount": 2821, "transactionsMass": 141232521, "transactionsWorth": 407219306712}, {"time": 733, "price": 2846, "change": 3.59, "transactionCount": 2828, "transactionsMass": 141409977, "transactionsWorth": 407724563856}, {"time": 734, "price": 2845, "change": 3.62, "transactionCount": 2848, "transactionsMass": 141773832, "transactionsWorth": 408760152285}, {"time": 735, "price": 2845, "change": 3.62, "transactionCount": 2868, "transactionsMass": 142778618, "transactionsWorth": 411618673241}, {"time": 736, "price": 2844, "change": 3.66, "transactionCount": 2889, "transactionsMass": 143919669, "transactionsWorth": 414864620336}, {"time": 737, "price": 2844, "change": 3.66, "transactionCount": 2908, "transactionsMass": 144687596, "transactionsWorth": 417048612121}, {"time": 738, "price": 2841, "change": 3.76, "transactionCount": 2947, "transactionsMass": 147365400, "transactionsWorth": 424659415644}, {"time": 739, "price": 2840, "change": 3.79, "transactionCount": 2995, "transactionsMass": 149647107, "transactionsWorth": 431139842810}, {"time": 740, "price": 2840, "change": 3.79, "transactionCount": 3040, "transactionsMass": 151429335, "transactionsWorth": 436202272621}, {"time": 741, "price": 2844, "change": 3.66, "transactionCount": 3064, "transactionsMass": 152529094, "transactionsWorth": 439330786848}, {"time": 742, "price": 2848, "change": 3.52, "transactionCount": 3087, "transactionsMass": 153453742, "transactionsWorth": 441962281543}, {"time": 743, "price": 2844, "change": 3.66, "transactionCount": 3109, "transactionsMass": 153877156, "transactionsWorth": 443167683122}, {"time": 744, "price": 2847, "change": 3.56, "transactionCount": 3122, "transactionsMass": 154489169, "transactionsWorth": 444908876573}, {"time": 745, "price": 2849, "change": 3.49, "transactionCount": 3140, "transactionsMass": 154727351, "transactionsWorth": 445587036771}, {"time": 746, "price": 2849, "change": 3.49, "transactionCount": 3155, "transactionsMass": 155031133, "transactionsWorth": 446452533471}, {"time": 747, "price": 2844, "change": 3.66, "transactionCount": 3192, "transactionsMass": 155802438, "transactionsWorth": 448647129054}, {"time": 748, "price": 2851, "change": 3.42, "transactionCount": 3215, "transactionsMass": 156771193, "transactionsWorth": 451407247874}, {"time": 749, "price": 2843, "change": 3.69, "transactionCount": 3253, "transactionsMass": 157894083, "transactionsWorth": 454604199237}, {"time": 750, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 751, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 752, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 753, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 754, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 755, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 756, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 757, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 758, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 759, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 760, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 761, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 762, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 763, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 764, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 765, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 766, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 767, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 768, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 769, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 770, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 771, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 772, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 773, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 774, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 775, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 776, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 777, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 778, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 779, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 780, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 781, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 782, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 783, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 784, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 785, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 786, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 787, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 788, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 789, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 790, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 791, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 792, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 793, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 794, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 795, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 796, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 797, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 798, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 799, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 800, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 801, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 802, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 803, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 804, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 805, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 806, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 807, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 808, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 809, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 810, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 811, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 812, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 813, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 814, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 815, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 816, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 817, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 818, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 819, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 820, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 821, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 822, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 823, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 824, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}, {"time": 825, "price": 2853, "change": 3.35, "transactionCount": 3298, "transactionsMass": 159927242, "transactionsWorth": 460392928244}]
+[
+    {
+        "time": 540,
+        "price": 2919,
+        "change": null,
+        "transactionCount": 0,
+        "transactionsMass": 0,
+        "transactionsWorth": 0
+    },
+    {
+        "time": 541,
+        "price": 2896,
+        "change": 1.9,
+        "transactionCount": 24,
+        "transactionsMass": 313657,
+        "transactionsWorth": 909192872
+    },
+    {
+        "time": 542,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 48,
+        "transactionsMass": 563543,
+        "transactionsWorth": 1631481147
+    },
+    {
+        "time": 543,
+        "price": 2880,
+        "change": 2.44,
+        "transactionCount": 77,
+        "transactionsMass": 880071,
+        "transactionsWorth": 2543815588
+    },
+    {
+        "time": 544,
+        "price": 2880,
+        "change": 2.44,
+        "transactionCount": 105,
+        "transactionsMass": 1775306,
+        "transactionsWorth": 5119459294
+    },
+    {
+        "time": 545,
+        "price": 2878,
+        "change": 2.51,
+        "transactionCount": 126,
+        "transactionsMass": 2320816,
+        "transactionsWorth": 6689792951
+    },
+    {
+        "time": 546,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 145,
+        "transactionsMass": 2980126,
+        "transactionsWorth": 8589893408
+    },
+    {
+        "time": 547,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 162,
+        "transactionsMass": 3322002,
+        "transactionsWorth": 9578625758
+    },
+    {
+        "time": 548,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 174,
+        "transactionsMass": 4227106,
+        "transactionsWorth": 12197177448
+    },
+    {
+        "time": 549,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 184,
+        "transactionsMass": 4567511,
+        "transactionsWorth": 13182267898
+    },
+    {
+        "time": 550,
+        "price": 2886,
+        "change": 2.24,
+        "transactionCount": 189,
+        "transactionsMass": 4640511,
+        "transactionsWorth": 13393177898
+    },
+    {
+        "time": 551,
+        "price": 2881,
+        "change": 2.41,
+        "transactionCount": 216,
+        "transactionsMass": 5369786,
+        "transactionsWorth": 15496720573
+    },
+    {
+        "time": 552,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 232,
+        "transactionsMass": 5761022,
+        "transactionsWorth": 16624693807
+    },
+    {
+        "time": 553,
+        "price": 2919,
+        "change": 1.12,
+        "transactionCount": 272,
+        "transactionsMass": 7910841,
+        "transactionsWorth": 22844128280
+    },
+    {
+        "time": 554,
+        "price": 2891,
+        "change": 2.07,
+        "transactionCount": 283,
+        "transactionsMass": 8385168,
+        "transactionsWorth": 24217046120
+    },
+    {
+        "time": 555,
+        "price": 2945,
+        "change": 0.24,
+        "transactionCount": 329,
+        "transactionsMass": 10006853,
+        "transactionsWorth": 28965086519
+    },
+    {
+        "time": 556,
+        "price": 2937,
+        "change": 0.51,
+        "transactionCount": 354,
+        "transactionsMass": 10601302,
+        "transactionsWorth": 30712516140
+    },
+    {
+        "time": 557,
+        "price": 2927,
+        "change": 0.85,
+        "transactionCount": 374,
+        "transactionsMass": 11132677,
+        "transactionsWorth": 32272050781
+    },
+    {
+        "time": 558,
+        "price": 2926,
+        "change": 0.88,
+        "transactionCount": 388,
+        "transactionsMass": 11914321,
+        "transactionsWorth": 34559751819
+    },
+    {
+        "time": 559,
+        "price": 2923,
+        "change": 0.98,
+        "transactionCount": 412,
+        "transactionsMass": 13312488,
+        "transactionsWorth": 38647174650
+    },
+    {
+        "time": 560,
+        "price": 2917,
+        "change": 1.19,
+        "transactionCount": 427,
+        "transactionsMass": 14610363,
+        "transactionsWorth": 42436829428
+    },
+    {
+        "time": 561,
+        "price": 2916,
+        "change": 1.22,
+        "transactionCount": 436,
+        "transactionsMass": 14954425,
+        "transactionsWorth": 43440131453
+    },
+    {
+        "time": 562,
+        "price": 2914,
+        "change": 1.29,
+        "transactionCount": 442,
+        "transactionsMass": 15239421,
+        "transactionsWorth": 44270822016
+    },
+    {
+        "time": 563,
+        "price": 2911,
+        "change": 1.39,
+        "transactionCount": 453,
+        "transactionsMass": 16186264,
+        "transactionsWorth": 47028366488
+    },
+    {
+        "time": 564,
+        "price": 2909,
+        "change": 1.46,
+        "transactionCount": 462,
+        "transactionsMass": 16556125,
+        "transactionsWorth": 48104572697
+    },
+    {
+        "time": 565,
+        "price": 2910,
+        "change": 1.42,
+        "transactionCount": 473,
+        "transactionsMass": 16786515,
+        "transactionsWorth": 48775026544
+    },
+    {
+        "time": 566,
+        "price": 2910,
+        "change": 1.42,
+        "transactionCount": 484,
+        "transactionsMass": 17817125,
+        "transactionsWorth": 51773635551
+    },
+    {
+        "time": 567,
+        "price": 2910,
+        "change": 1.42,
+        "transactionCount": 499,
+        "transactionsMass": 18770462,
+        "transactionsWorth": 54549813045
+    },
+    {
+        "time": 568,
+        "price": 2911,
+        "change": 1.39,
+        "transactionCount": 507,
+        "transactionsMass": 18827477,
+        "transactionsWorth": 54715827710
+    },
+    {
+        "time": 569,
+        "price": 2911,
+        "change": 1.39,
+        "transactionCount": 514,
+        "transactionsMass": 19233819,
+        "transactionsWorth": 55898715623
+    },
+    {
+        "time": 570,
+        "price": 2913,
+        "change": 1.32,
+        "transactionCount": 536,
+        "transactionsMass": 19742964,
+        "transactionsWorth": 57381605121
+    },
+    {
+        "time": 571,
+        "price": 2911,
+        "change": 1.39,
+        "transactionCount": 550,
+        "transactionsMass": 20379951,
+        "transactionsWorth": 59235798608
+    },
+    {
+        "time": 572,
+        "price": 2911,
+        "change": 1.39,
+        "transactionCount": 567,
+        "transactionsMass": 21098352,
+        "transactionsWorth": 61327239128
+    },
+    {
+        "time": 573,
+        "price": 2910,
+        "change": 1.42,
+        "transactionCount": 579,
+        "transactionsMass": 21770681,
+        "transactionsWorth": 63283749018
+    },
+    {
+        "time": 574,
+        "price": 2906,
+        "change": 1.56,
+        "transactionCount": 604,
+        "transactionsMass": 24195531,
+        "transactionsWorth": 70337053340
+    },
+    {
+        "time": 575,
+        "price": 2906,
+        "change": 1.56,
+        "transactionCount": 611,
+        "transactionsMass": 24284531,
+        "transactionsWorth": 70595692340
+    },
+    {
+        "time": 576,
+        "price": 2905,
+        "change": 1.59,
+        "transactionCount": 628,
+        "transactionsMass": 25376872,
+        "transactionsWorth": 73769784227
+    },
+    {
+        "time": 577,
+        "price": 2902,
+        "change": 1.69,
+        "transactionCount": 646,
+        "transactionsMass": 26181783,
+        "transactionsWorth": 76106312125
+    },
+    {
+        "time": 578,
+        "price": 2904,
+        "change": 1.63,
+        "transactionCount": 660,
+        "transactionsMass": 26504262,
+        "transactionsWorth": 77041911151
+    },
+    {
+        "time": 579,
+        "price": 2900,
+        "change": 1.76,
+        "transactionCount": 691,
+        "transactionsMass": 28389706,
+        "transactionsWorth": 82510766848
+    },
+    {
+        "time": 580,
+        "price": 2900,
+        "change": 1.76,
+        "transactionCount": 701,
+        "transactionsMass": 28655197,
+        "transactionsWorth": 83280549352
+    },
+    {
+        "time": 581,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 705,
+        "transactionsMass": 28683413,
+        "transactionsWorth": 83362352536
+    },
+    {
+        "time": 582,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 717,
+        "transactionsMass": 28937741,
+        "transactionsWorth": 84099655908
+    },
+    {
+        "time": 583,
+        "price": 2898,
+        "change": 1.83,
+        "transactionCount": 726,
+        "transactionsMass": 29672741,
+        "transactionsWorth": 86230079725
+    },
+    {
+        "time": 584,
+        "price": 2897,
+        "change": 1.86,
+        "transactionCount": 736,
+        "transactionsMass": 29735022,
+        "transactionsWorth": 86410575397
+    },
+    {
+        "time": 585,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 748,
+        "transactionsMass": 30283982,
+        "transactionsWorth": 88000738827
+    },
+    {
+        "time": 586,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 757,
+        "transactionsMass": 30951225,
+        "transactionsWorth": 89933264555
+    },
+    {
+        "time": 587,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 761,
+        "transactionsMass": 31176225,
+        "transactionsWorth": 90585429555
+    },
+    {
+        "time": 588,
+        "price": 2897,
+        "change": 1.86,
+        "transactionCount": 769,
+        "transactionsMass": 31987967,
+        "transactionsWorth": 92938338873
+    },
+    {
+        "time": 589,
+        "price": 2896,
+        "change": 1.9,
+        "transactionCount": 788,
+        "transactionsMass": 32700301,
+        "transactionsWorth": 95001340777
+    },
+    {
+        "time": 590,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 796,
+        "transactionsMass": 33115523,
+        "transactionsWorth": 96203764467
+    },
+    {
+        "time": 591,
+        "price": 2894,
+        "change": 1.96,
+        "transactionCount": 816,
+        "transactionsMass": 34617900,
+        "transactionsWorth": 100553835610
+    },
+    {
+        "time": 592,
+        "price": 2893,
+        "change": 2,
+        "transactionCount": 828,
+        "transactionsMass": 35441572,
+        "transactionsWorth": 102937029393
+    },
+    {
+        "time": 593,
+        "price": 2893,
+        "change": 2,
+        "transactionCount": 840,
+        "transactionsMass": 36747687,
+        "transactionsWorth": 106716794741
+    },
+    {
+        "time": 594,
+        "price": 2894,
+        "change": 1.96,
+        "transactionCount": 850,
+        "transactionsMass": 37308159,
+        "transactionsWorth": 108338250237
+    },
+    {
+        "time": 595,
+        "price": 2894,
+        "change": 1.96,
+        "transactionCount": 856,
+        "transactionsMass": 37430105,
+        "transactionsWorth": 108691048900
+    },
+    {
+        "time": 596,
+        "price": 2892,
+        "change": 2.03,
+        "transactionCount": 861,
+        "transactionsMass": 37674436,
+        "transactionsWorth": 109397751285
+    },
+    {
+        "time": 597,
+        "price": 2892,
+        "change": 2.03,
+        "transactionCount": 876,
+        "transactionsMass": 38539844,
+        "transactionsWorth": 111900914939
+    },
+    {
+        "time": 598,
+        "price": 2891,
+        "change": 2.07,
+        "transactionCount": 888,
+        "transactionsMass": 39557740,
+        "transactionsWorth": 114844257075
+    },
+    {
+        "time": 599,
+        "price": 2892,
+        "change": 2.03,
+        "transactionCount": 904,
+        "transactionsMass": 40063595,
+        "transactionsWorth": 116307189735
+    },
+    {
+        "time": 600,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 923,
+        "transactionsMass": 41132853,
+        "transactionsWorth": 119397792418
+    },
+    {
+        "time": 601,
+        "price": 2892,
+        "change": 2.03,
+        "transactionCount": 930,
+        "transactionsMass": 41173034,
+        "transactionsWorth": 119513955888
+    },
+    {
+        "time": 602,
+        "price": 2894,
+        "change": 1.96,
+        "transactionCount": 945,
+        "transactionsMass": 41960143,
+        "transactionsWorth": 121789988200
+    },
+    {
+        "time": 603,
+        "price": 2894,
+        "change": 1.96,
+        "transactionCount": 961,
+        "transactionsMass": 43023840,
+        "transactionsWorth": 124867659646
+    },
+    {
+        "time": 604,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 977,
+        "transactionsMass": 43631934,
+        "transactionsWorth": 126627255601
+    },
+    {
+        "time": 605,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 982,
+        "transactionsMass": 43938434,
+        "transactionsWorth": 127514363101
+    },
+    {
+        "time": 606,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 993,
+        "transactionsMass": 44055303,
+        "transactionsWorth": 127852663056
+    },
+    {
+        "time": 607,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 996,
+        "transactionsMass": 44067303,
+        "transactionsWorth": 127887411808
+    },
+    {
+        "time": 608,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1001,
+        "transactionsMass": 44108543,
+        "transactionsWorth": 128006821108
+    },
+    {
+        "time": 609,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1004,
+        "transactionsMass": 44125593,
+        "transactionsWorth": 128056190858
+    },
+    {
+        "time": 610,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1014,
+        "transactionsMass": 44714114,
+        "transactionsWorth": 129759950111
+    },
+    {
+        "time": 611,
+        "price": 2899,
+        "change": 1.8,
+        "transactionCount": 1021,
+        "transactionsMass": 45356342,
+        "transactionsWorth": 131619957943
+    },
+    {
+        "time": 612,
+        "price": 2900,
+        "change": 1.76,
+        "transactionCount": 1049,
+        "transactionsMass": 45909251,
+        "transactionsWorth": 133223191350
+    },
+    {
+        "time": 613,
+        "price": 2900,
+        "change": 1.76,
+        "transactionCount": 1063,
+        "transactionsMass": 46635899,
+        "transactionsWorth": 135330976462
+    },
+    {
+        "time": 614,
+        "price": 2903,
+        "change": 1.66,
+        "transactionCount": 1081,
+        "transactionsMass": 47816761,
+        "transactionsWorth": 138755881515
+    },
+    {
+        "time": 615,
+        "price": 2903,
+        "change": 1.66,
+        "transactionCount": 1083,
+        "transactionsMass": 48041761,
+        "transactionsWorth": 139408756515
+    },
+    {
+        "time": 616,
+        "price": 2900,
+        "change": 1.76,
+        "transactionCount": 1094,
+        "transactionsMass": 48374480,
+        "transactionsWorth": 140373688329
+    },
+    {
+        "time": 617,
+        "price": 2897,
+        "change": 1.86,
+        "transactionCount": 1102,
+        "transactionsMass": 49030584,
+        "transactionsWorth": 142274896306
+    },
+    {
+        "time": 618,
+        "price": 2896,
+        "change": 1.9,
+        "transactionCount": 1119,
+        "transactionsMass": 50012856,
+        "transactionsWorth": 145120829551
+    },
+    {
+        "time": 619,
+        "price": 2896,
+        "change": 1.9,
+        "transactionCount": 1124,
+        "transactionsMass": 50257186,
+        "transactionsWorth": 145828410956
+    },
+    {
+        "time": 620,
+        "price": 2896,
+        "change": 1.9,
+        "transactionCount": 1130,
+        "transactionsMass": 50395193,
+        "transactionsWorth": 146228081682
+    },
+    {
+        "time": 621,
+        "price": 2893,
+        "change": 2,
+        "transactionCount": 1154,
+        "transactionsMass": 52294814,
+        "transactionsWorth": 151724510884
+    },
+    {
+        "time": 622,
+        "price": 2893,
+        "change": 2,
+        "transactionCount": 1159,
+        "transactionsMass": 52662746,
+        "transactionsWorth": 152788943560
+    },
+    {
+        "time": 623,
+        "price": 2892,
+        "change": 2.03,
+        "transactionCount": 1177,
+        "transactionsMass": 53677900,
+        "transactionsWorth": 155725986612
+    },
+    {
+        "time": 624,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1179,
+        "transactionsMass": 53684900,
+        "transactionsWorth": 155746251612
+    },
+    {
+        "time": 625,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1188,
+        "transactionsMass": 54175140,
+        "transactionsWorth": 157164326652
+    },
+    {
+        "time": 626,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 1219,
+        "transactionsMass": 56332384,
+        "transactionsWorth": 163399928876
+    },
+    {
+        "time": 627,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 1227,
+        "transactionsMass": 56796990,
+        "transactionsWorth": 164742639216
+    },
+    {
+        "time": 628,
+        "price": 2889,
+        "change": 2.13,
+        "transactionCount": 1238,
+        "transactionsMass": 56879201,
+        "transactionsWorth": 164980187062
+    },
+    {
+        "time": 629,
+        "price": 2895,
+        "change": 1.93,
+        "transactionCount": 1251,
+        "transactionsMass": 57563414,
+        "transactionsWorth": 166958172632
+    },
+    {
+        "time": 630,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1308,
+        "transactionsMass": 61595705,
+        "transactionsWorth": 178600147086
+    },
+    {
+        "time": 631,
+        "price": 2886,
+        "change": 2.24,
+        "transactionCount": 1315,
+        "transactionsMass": 61930711,
+        "transactionsWorth": 179566357646
+    },
+    {
+        "time": 632,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1329,
+        "transactionsMass": 62520675,
+        "transactionsWorth": 181268784221
+    },
+    {
+        "time": 633,
+        "price": 2886,
+        "change": 2.24,
+        "transactionCount": 1334,
+        "transactionsMass": 62560549,
+        "transactionsWorth": 181383846585
+    },
+    {
+        "time": 634,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1347,
+        "transactionsMass": 62641250,
+        "transactionsWorth": 181616741039
+    },
+    {
+        "time": 635,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1356,
+        "transactionsMass": 62753250,
+        "transactionsWorth": 181940197039
+    },
+    {
+        "time": 636,
+        "price": 2887,
+        "change": 2.2,
+        "transactionCount": 1360,
+        "transactionsMass": 62840900,
+        "transactionsWorth": 182193242589
+    },
+    {
+        "time": 637,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1380,
+        "transactionsMass": 63542430,
+        "transactionsWorth": 184219429194
+    },
+    {
+        "time": 638,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1395,
+        "transactionsMass": 64551522,
+        "transactionsWorth": 187131974197
+    },
+    {
+        "time": 639,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1408,
+        "transactionsMass": 65463382,
+        "transactionsWorth": 189762105707
+    },
+    {
+        "time": 640,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1417,
+        "transactionsMass": 66185949,
+        "transactionsWorth": 191846191502
+    },
+    {
+        "time": 641,
+        "price": 2884,
+        "change": 2.3,
+        "transactionCount": 1443,
+        "transactionsMass": 69444342,
+        "transactionsWorth": 201246387497
+    },
+    {
+        "time": 642,
+        "price": 2886,
+        "change": 2.24,
+        "transactionCount": 1469,
+        "transactionsMass": 72287423,
+        "transactionsWorth": 209450829652
+    },
+    {
+        "time": 643,
+        "price": 2886,
+        "change": 2.24,
+        "transactionCount": 1486,
+        "transactionsMass": 73713409,
+        "transactionsWorth": 213566622587
+    },
+    {
+        "time": 644,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1505,
+        "transactionsMass": 75114550,
+        "transactionsWorth": 217609585339
+    },
+    {
+        "time": 645,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1519,
+        "transactionsMass": 76207416,
+        "transactionsWorth": 220763500337
+    },
+    {
+        "time": 646,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1527,
+        "transactionsMass": 76309703,
+        "transactionsWorth": 221058898185
+    },
+    {
+        "time": 647,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1536,
+        "transactionsMass": 76702738,
+        "transactionsWorth": 222193783265
+    },
+    {
+        "time": 648,
+        "price": 2887,
+        "change": 2.2,
+        "transactionCount": 1545,
+        "transactionsMass": 76888278,
+        "transactionsWorth": 222729392324
+    },
+    {
+        "time": 649,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1569,
+        "transactionsMass": 77711255,
+        "transactionsWorth": 225104489341
+    },
+    {
+        "time": 650,
+        "price": 2887,
+        "change": 2.2,
+        "transactionCount": 1573,
+        "transactionsMass": 77986224,
+        "transactionsWorth": 225898306844
+    },
+    {
+        "time": 651,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1590,
+        "transactionsMass": 78589735,
+        "transactionsWorth": 227640577154
+    },
+    {
+        "time": 652,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 1602,
+        "transactionsMass": 78884353,
+        "transactionsWorth": 228491915404
+    },
+    {
+        "time": 653,
+        "price": 2890,
+        "change": 2.1,
+        "transactionCount": 1606,
+        "transactionsMass": 79009053,
+        "transactionsWorth": 228852098404
+    },
+    {
+        "time": 654,
+        "price": 2889,
+        "change": 2.13,
+        "transactionCount": 1616,
+        "transactionsMass": 79054853,
+        "transactionsWorth": 228984383404
+    },
+    {
+        "time": 655,
+        "price": 2888,
+        "change": 2.17,
+        "transactionCount": 1631,
+        "transactionsMass": 79587466,
+        "transactionsWorth": 230523337974
+    },
+    {
+        "time": 656,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1656,
+        "transactionsMass": 81072251,
+        "transactionsWorth": 234807464709
+    },
+    {
+        "time": 657,
+        "price": 2885,
+        "change": 2.27,
+        "transactionCount": 1691,
+        "transactionsMass": 84540905,
+        "transactionsWorth": 244808507926
+    },
+    {
+        "time": 658,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 1706,
+        "transactionsMass": 86364375,
+        "transactionsWorth": 250065601936
+    },
+    {
+        "time": 659,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 1717,
+        "transactionsMass": 87022829,
+        "transactionsWorth": 251963649067
+    },
+    {
+        "time": 660,
+        "price": 2884,
+        "change": 2.3,
+        "transactionCount": 1721,
+        "transactionsMass": 87090390,
+        "transactionsWorth": 252158556904
+    },
+    {
+        "time": 661,
+        "price": 2884,
+        "change": 2.3,
+        "transactionCount": 1728,
+        "transactionsMass": 87162506,
+        "transactionsWorth": 252366542212
+    },
+    {
+        "time": 662,
+        "price": 2884,
+        "change": 2.3,
+        "transactionCount": 1752,
+        "transactionsMass": 87468391,
+        "transactionsWorth": 253248644106
+    },
+    {
+        "time": 663,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 1756,
+        "transactionsMass": 87481545,
+        "transactionsWorth": 253286575743
+    },
+    {
+        "time": 664,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 1759,
+        "transactionsMass": 87681545,
+        "transactionsWorth": 253863175743
+    },
+    {
+        "time": 665,
+        "price": 2881,
+        "change": 2.41,
+        "transactionCount": 1782,
+        "transactionsMass": 89062076,
+        "transactionsWorth": 257841652790
+    },
+    {
+        "time": 666,
+        "price": 2882,
+        "change": 2.37,
+        "transactionCount": 1791,
+        "transactionsMass": 89131606,
+        "transactionsWorth": 258042072250
+    },
+    {
+        "time": 667,
+        "price": 2881,
+        "change": 2.41,
+        "transactionCount": 1807,
+        "transactionsMass": 89760863,
+        "transactionsWorth": 259854992143
+    },
+    {
+        "time": 668,
+        "price": 2881,
+        "change": 2.41,
+        "transactionCount": 1815,
+        "transactionsMass": 90360432,
+        "transactionsWorth": 261582150432
+    },
+    {
+        "time": 669,
+        "price": 2883,
+        "change": 2.34,
+        "transactionCount": 1824,
+        "transactionsMass": 90450917,
+        "transactionsWorth": 261842860322
+    },
+    {
+        "time": 670,
+        "price": 2880,
+        "change": 2.44,
+        "transactionCount": 1836,
+        "transactionsMass": 90776535,
+        "transactionsWorth": 262780900036
+    },
+    {
+        "time": 671,
+        "price": 2880,
+        "change": 2.44,
+        "transactionCount": 1855,
+        "transactionsMass": 91217644,
+        "transactionsWorth": 264051383763
+    },
+    {
+        "time": 672,
+        "price": 2878,
+        "change": 2.51,
+        "transactionCount": 1884,
+        "transactionsMass": 93421644,
+        "transactionsWorth": 270398195193
+    },
+    {
+        "time": 673,
+        "price": 2879,
+        "change": 2.47,
+        "transactionCount": 1887,
+        "transactionsMass": 93457044,
+        "transactionsWorth": 270500079793
+    },
+    {
+        "time": 674,
+        "price": 2879,
+        "change": 2.47,
+        "transactionCount": 1889,
+        "transactionsMass": 93571425,
+        "transactionsWorth": 270829486473
+    },
+    {
+        "time": 675,
+        "price": 2879,
+        "change": 2.47,
+        "transactionCount": 1891,
+        "transactionsMass": 93629973,
+        "transactionsWorth": 270998046165
+    },
+    {
+        "time": 676,
+        "price": 2876,
+        "change": 2.57,
+        "transactionCount": 1937,
+        "transactionsMass": 97079419,
+        "transactionsWorth": 280927617183
+    },
+    {
+        "time": 677,
+        "price": 2877,
+        "change": 2.54,
+        "transactionCount": 1956,
+        "transactionsMass": 98027478,
+        "transactionsWorth": 283653714163
+    },
+    {
+        "time": 678,
+        "price": 2875,
+        "change": 2.61,
+        "transactionCount": 1967,
+        "transactionsMass": 98234754,
+        "transactionsWorth": 284249487613
+    },
+    {
+        "time": 679,
+        "price": 2873,
+        "change": 2.68,
+        "transactionCount": 1981,
+        "transactionsMass": 98853641,
+        "transactionsWorth": 286027929563
+    },
+    {
+        "time": 680,
+        "price": 2873,
+        "change": 2.68,
+        "transactionCount": 1987,
+        "transactionsMass": 99276087,
+        "transactionsWorth": 287242418655
+    },
+    {
+        "time": 681,
+        "price": 2874,
+        "change": 2.64,
+        "transactionCount": 1989,
+        "transactionsMass": 99280254,
+        "transactionsWorth": 287254394613
+    },
+    {
+        "time": 682,
+        "price": 2873,
+        "change": 2.68,
+        "transactionCount": 1991,
+        "transactionsMass": 99288254,
+        "transactionsWorth": 287277378613
+    },
+    {
+        "time": 683,
+        "price": 2871,
+        "change": 2.74,
+        "transactionCount": 2010,
+        "transactionsMass": 100148462,
+        "transactionsWorth": 289747839295
+    },
+    {
+        "time": 684,
+        "price": 2871,
+        "change": 2.74,
+        "transactionCount": 2031,
+        "transactionsMass": 101105903,
+        "transactionsWorth": 292496288595
+    },
+    {
+        "time": 685,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2048,
+        "transactionsMass": 102019294,
+        "transactionsWorth": 295118020679
+    },
+    {
+        "time": 686,
+        "price": 2873,
+        "change": 2.68,
+        "transactionCount": 2057,
+        "transactionsMass": 102197946,
+        "transactionsWorth": 295631049518
+    },
+    {
+        "time": 687,
+        "price": 2871,
+        "change": 2.74,
+        "transactionCount": 2061,
+        "transactionsMass": 102250497,
+        "transactionsWorth": 295782020939
+    },
+    {
+        "time": 688,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2065,
+        "transactionsMass": 102391282,
+        "transactionsWorth": 296186075889
+    },
+    {
+        "time": 689,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2095,
+        "transactionsMass": 104701206,
+        "transactionsWorth": 302815696033
+    },
+    {
+        "time": 690,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2116,
+        "transactionsMass": 107149783,
+        "transactionsWorth": 309843014492
+    },
+    {
+        "time": 691,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2128,
+        "transactionsMass": 108145349,
+        "transactionsWorth": 312700372617
+    },
+    {
+        "time": 692,
+        "price": 2870,
+        "change": 2.78,
+        "transactionCount": 2148,
+        "transactionsMass": 109881074,
+        "transactionsWorth": 317681575144
+    },
+    {
+        "time": 693,
+        "price": 2869,
+        "change": 2.81,
+        "transactionCount": 2161,
+        "transactionsMass": 110801479,
+        "transactionsWorth": 320323053584
+    },
+    {
+        "time": 694,
+        "price": 2867,
+        "change": 2.88,
+        "transactionCount": 2173,
+        "transactionsMass": 111364353,
+        "transactionsWorth": 321937382969
+    },
+    {
+        "time": 695,
+        "price": 2867,
+        "change": 2.88,
+        "transactionCount": 2180,
+        "transactionsMass": 111604036,
+        "transactionsWorth": 322624562166
+    },
+    {
+        "time": 696,
+        "price": 2862,
+        "change": 3.05,
+        "transactionCount": 2218,
+        "transactionsMass": 114838117,
+        "transactionsWorth": 331888012477
+    },
+    {
+        "time": 697,
+        "price": 2859,
+        "change": 3.15,
+        "transactionCount": 2250,
+        "transactionsMass": 117097532,
+        "transactionsWorth": 338349824907
+    },
+    {
+        "time": 698,
+        "price": 2859,
+        "change": 3.15,
+        "transactionCount": 2264,
+        "transactionsMass": 117531673,
+        "transactionsWorth": 339591022431
+    },
+    {
+        "time": 699,
+        "price": 2859,
+        "change": 3.15,
+        "transactionCount": 2273,
+        "transactionsMass": 117691061,
+        "transactionsWorth": 340046746365
+    },
+    {
+        "time": 700,
+        "price": 2858,
+        "change": 3.18,
+        "transactionCount": 2287,
+        "transactionsMass": 118474060,
+        "transactionsWorth": 342284402001
+    },
+    {
+        "time": 701,
+        "price": 2857,
+        "change": 3.22,
+        "transactionCount": 2310,
+        "transactionsMass": 119173731,
+        "transactionsWorth": 344283469792
+    },
+    {
+        "time": 702,
+        "price": 2857,
+        "change": 3.22,
+        "transactionCount": 2321,
+        "transactionsMass": 119572511,
+        "transactionsWorth": 345422455238
+    },
+    {
+        "time": 703,
+        "price": 2857,
+        "change": 3.22,
+        "transactionCount": 2343,
+        "transactionsMass": 120512537,
+        "transactionsWorth": 348107528050
+    },
+    {
+        "time": 704,
+        "price": 2855,
+        "change": 3.29,
+        "transactionCount": 2346,
+        "transactionsMass": 120553537,
+        "transactionsWorth": 348224592050
+    },
+    {
+        "time": 705,
+        "price": 2856,
+        "change": 3.25,
+        "transactionCount": 2356,
+        "transactionsMass": 120754231,
+        "transactionsWorth": 348797772368
+    },
+    {
+        "time": 706,
+        "price": 2861,
+        "change": 3.08,
+        "transactionCount": 2372,
+        "transactionsMass": 121375388,
+        "transactionsWorth": 350573109089
+    },
+    {
+        "time": 707,
+        "price": 2861,
+        "change": 3.08,
+        "transactionCount": 2384,
+        "transactionsMass": 122406114,
+        "transactionsWorth": 353521307987
+    },
+    {
+        "time": 708,
+        "price": 2866,
+        "change": 2.91,
+        "transactionCount": 2392,
+        "transactionsMass": 122657095,
+        "transactionsWorth": 354240783933
+    },
+    {
+        "time": 709,
+        "price": 2862,
+        "change": 3.05,
+        "transactionCount": 2397,
+        "transactionsMass": 122786951,
+        "transactionsWorth": 354612431805
+    },
+    {
+        "time": 710,
+        "price": 2862,
+        "change": 3.05,
+        "transactionCount": 2403,
+        "transactionsMass": 122933951,
+        "transactionsWorth": 355033184125
+    },
+    {
+        "time": 711,
+        "price": 2861,
+        "change": 3.08,
+        "transactionCount": 2424,
+        "transactionsMass": 124542066,
+        "transactionsWorth": 359637694989
+    },
+    {
+        "time": 712,
+        "price": 2860,
+        "change": 3.12,
+        "transactionCount": 2436,
+        "transactionsMass": 125578983,
+        "transactionsWorth": 362603786293
+    },
+    {
+        "time": 713,
+        "price": 2862,
+        "change": 3.05,
+        "transactionCount": 2440,
+        "transactionsMass": 125587427,
+        "transactionsWorth": 362627953021
+    },
+    {
+        "time": 714,
+        "price": 2856,
+        "change": 3.25,
+        "transactionCount": 2463,
+        "transactionsMass": 126189613,
+        "transactionsWorth": 364349901731
+    },
+    {
+        "time": 715,
+        "price": 2855,
+        "change": 3.29,
+        "transactionCount": 2478,
+        "transactionsMass": 126995635,
+        "transactionsWorth": 366651192282
+    },
+    {
+        "time": 716,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 2505,
+        "transactionsMass": 128795241,
+        "transactionsWorth": 371787114742
+    },
+    {
+        "time": 717,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2566,
+        "transactionsMass": 131578547,
+        "transactionsWorth": 379722049384
+    },
+    {
+        "time": 718,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2571,
+        "transactionsMass": 131640852,
+        "transactionsWorth": 379899636736
+    },
+    {
+        "time": 719,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2592,
+        "transactionsMass": 132013834,
+        "transactionsWorth": 380962832087
+    },
+    {
+        "time": 720,
+        "price": 2849,
+        "change": 3.49,
+        "transactionCount": 2619,
+        "transactionsMass": 132790030,
+        "transactionsWorth": 383174423686
+    },
+    {
+        "time": 721,
+        "price": 2855,
+        "change": 3.29,
+        "transactionCount": 2629,
+        "transactionsMass": 132995984,
+        "transactionsWorth": 383761242605
+    },
+    {
+        "time": 722,
+        "price": 2855,
+        "change": 3.29,
+        "transactionCount": 2637,
+        "transactionsMass": 133035055,
+        "transactionsWorth": 383872634765
+    },
+    {
+        "time": 723,
+        "price": 2847,
+        "change": 3.56,
+        "transactionCount": 2667,
+        "transactionsMass": 134856324,
+        "transactionsWorth": 389059434910
+    },
+    {
+        "time": 724,
+        "price": 2848,
+        "change": 3.52,
+        "transactionCount": 2683,
+        "transactionsMass": 135473109,
+        "transactionsWorth": 390815260796
+    },
+    {
+        "time": 725,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2704,
+        "transactionsMass": 135737211,
+        "transactionsWorth": 391568900681
+    },
+    {
+        "time": 726,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 2716,
+        "transactionsMass": 136278791,
+        "transactionsWorth": 393112455261
+    },
+    {
+        "time": 727,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2734,
+        "transactionsMass": 137475670,
+        "transactionsWorth": 396524758004
+    },
+    {
+        "time": 728,
+        "price": 2850,
+        "change": 3.46,
+        "transactionCount": 2742,
+        "transactionsMass": 138021337,
+        "transactionsWorth": 398079902906
+    },
+    {
+        "time": 729,
+        "price": 2846,
+        "change": 3.59,
+        "transactionCount": 2768,
+        "transactionsMass": 139277412,
+        "transactionsWorth": 401656093595
+    },
+    {
+        "time": 730,
+        "price": 2845,
+        "change": 3.62,
+        "transactionCount": 2789,
+        "transactionsMass": 140208300,
+        "transactionsWorth": 404304811663
+    },
+    {
+        "time": 731,
+        "price": 2845,
+        "change": 3.62,
+        "transactionCount": 2804,
+        "transactionsMass": 140766362,
+        "transactionsWorth": 405892953639
+    },
+    {
+        "time": 732,
+        "price": 2845,
+        "change": 3.62,
+        "transactionCount": 2821,
+        "transactionsMass": 141232521,
+        "transactionsWorth": 407219306712
+    },
+    {
+        "time": 733,
+        "price": 2846,
+        "change": 3.59,
+        "transactionCount": 2828,
+        "transactionsMass": 141409977,
+        "transactionsWorth": 407724563856
+    },
+    {
+        "time": 734,
+        "price": 2845,
+        "change": 3.62,
+        "transactionCount": 2848,
+        "transactionsMass": 141773832,
+        "transactionsWorth": 408760152285
+    },
+    {
+        "time": 735,
+        "price": 2845,
+        "change": 3.62,
+        "transactionCount": 2868,
+        "transactionsMass": 142778618,
+        "transactionsWorth": 411618673241
+    },
+    {
+        "time": 736,
+        "price": 2844,
+        "change": 3.66,
+        "transactionCount": 2889,
+        "transactionsMass": 143919669,
+        "transactionsWorth": 414864620336
+    },
+    {
+        "time": 737,
+        "price": 2844,
+        "change": 3.66,
+        "transactionCount": 2908,
+        "transactionsMass": 144687596,
+        "transactionsWorth": 417048612121
+    },
+    {
+        "time": 738,
+        "price": 2841,
+        "change": 3.76,
+        "transactionCount": 2947,
+        "transactionsMass": 147365400,
+        "transactionsWorth": 424659415644
+    },
+    {
+        "time": 739,
+        "price": 2840,
+        "change": 3.79,
+        "transactionCount": 2995,
+        "transactionsMass": 149647107,
+        "transactionsWorth": 431139842810
+    },
+    {
+        "time": 740,
+        "price": 2840,
+        "change": 3.79,
+        "transactionCount": 3040,
+        "transactionsMass": 151429335,
+        "transactionsWorth": 436202272621
+    },
+    {
+        "time": 741,
+        "price": 2844,
+        "change": 3.66,
+        "transactionCount": 3064,
+        "transactionsMass": 152529094,
+        "transactionsWorth": 439330786848
+    },
+    {
+        "time": 742,
+        "price": 2848,
+        "change": 3.52,
+        "transactionCount": 3087,
+        "transactionsMass": 153453742,
+        "transactionsWorth": 441962281543
+    },
+    {
+        "time": 743,
+        "price": 2844,
+        "change": 3.66,
+        "transactionCount": 3109,
+        "transactionsMass": 153877156,
+        "transactionsWorth": 443167683122
+    },
+    {
+        "time": 744,
+        "price": 2847,
+        "change": 3.56,
+        "transactionCount": 3122,
+        "transactionsMass": 154489169,
+        "transactionsWorth": 444908876573
+    },
+    {
+        "time": 745,
+        "price": 2849,
+        "change": 3.49,
+        "transactionCount": 3140,
+        "transactionsMass": 154727351,
+        "transactionsWorth": 445587036771
+    },
+    {
+        "time": 746,
+        "price": 2849,
+        "change": 3.49,
+        "transactionCount": 3155,
+        "transactionsMass": 155031133,
+        "transactionsWorth": 446452533471
+    },
+    {
+        "time": 747,
+        "price": 2844,
+        "change": 3.66,
+        "transactionCount": 3192,
+        "transactionsMass": 155802438,
+        "transactionsWorth": 448647129054
+    },
+    {
+        "time": 748,
+        "price": 2851,
+        "change": 3.42,
+        "transactionCount": 3215,
+        "transactionsMass": 156771193,
+        "transactionsWorth": 451407247874
+    },
+    {
+        "time": 749,
+        "price": 2843,
+        "change": 3.69,
+        "transactionCount": 3253,
+        "transactionsMass": 157894083,
+        "transactionsWorth": 454604199237
+    },
+    {
+        "time": 750,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 751,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 752,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 753,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 754,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 755,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 756,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 757,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 758,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 759,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 760,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 761,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 762,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 763,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 764,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 765,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 766,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 767,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 768,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 769,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 770,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 771,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 772,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 773,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 774,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 775,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 776,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 777,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 778,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 779,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 780,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 781,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 782,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 783,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 784,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 785,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 786,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 787,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 788,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 789,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 790,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 791,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 792,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 793,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 794,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 795,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 796,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 797,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 798,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 799,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 800,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 801,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 802,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 803,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 804,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 805,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 806,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 807,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 808,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 809,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 810,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 811,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 812,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 813,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 814,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 815,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 816,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 817,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 818,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 819,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 820,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 821,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 822,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 823,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 824,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    },
+    {
+        "time": 825,
+        "price": 2853,
+        "change": 3.35,
+        "transactionCount": 3298,
+        "transactionsMass": 159927242,
+        "transactionsWorth": 460392928244
+    }
+]

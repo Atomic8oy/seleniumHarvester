@@ -31,11 +31,11 @@ save = 0
 price = None
 try:
     while True:
-        if price == int(driver.title.replace("خودرو ", "").replace(",", "")):
+        if price == int(driver.title.split(" ")[1].replace(",", "")):
             continue
 
         save += 1
-        price = int(driver.title.replace("خودرو ", "").replace(",", ""))
+        price = int(driver.title.replace("فولاد ", "").replace(",", ""))
         time = datetime.now().timestamp()
         
         logger.log(price, True)
