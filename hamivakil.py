@@ -1,3 +1,7 @@
+"""
+This file is separated from the project and has to run manually.
+"""
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 from selenium import webdriver
@@ -38,7 +42,7 @@ lawyers = []
 for code in codes:
     while True:
         try:
-            sleep(20.0)
+            sleep(60.0)
             logger.log(f"Getting {code}", True)
             driver.get(f"http://search-hamivakil.ir/Lawyer/{code}/")
 
@@ -63,7 +67,7 @@ for code in codes:
             })
 
             break
-        except:
+        except NoSuchElementException:
             continue
 
 logger.log(f"Writing the data")
