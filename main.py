@@ -3,16 +3,17 @@ from utilities import Logger
 
 logging = Logger()
 
-if WEBSITE == "digikala":
-    import digikala
-elif WEBSITE == "divar":
-    import divar
-elif WEBSITE == "tsetmc":
-    import tsetmc
-elif WEBSITE == "tsetmcLive":
-    import tsetmcLive
-else:
-    raise(f"This app doesn't support {WEBSITE}.\nCheck for typos or new updates.")
+match WEBSITE:
+    case "digikala":
+        import digikala
+    case "divar":
+        import divar
+    case  "tsetmc":
+        import tsetmc
+    case "tsetmcLive":
+        import tsetmcLive
+    case _:
+        raise(f"{WEBSITE} is not supported.\nCheck for typos or new updates.")
 
 if EXCEL:
     from config import OUT
