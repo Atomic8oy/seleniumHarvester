@@ -1,5 +1,6 @@
 # How to use
-first of all go to 'config.json' and change it based on what you want to do (There is instructions below)
+* Go to 'config.json' and change it based on what you want to do (There are instructions below)
+* Run 'main.py' and get your output in 'out/' folder
 
 # config.json instructions
 
