@@ -9,13 +9,13 @@ The target website:
 digikala, divar, tsetmc, tsetmcLive
 
 ### keyword: 
-(digikala) a keyword to search in digikala
-(divar) city's name
-(tsetmc) `https://www.tsetmc.com/History/{KEYWORD}`
-(tsetmcLive) `https://tsetmc.com/instInfo/{KEYWORD}`
+(digikala) a keyword to search in digikala<br>
+(divar) city's name<br>
+(tsetmc) `https://www.tsetmc.com/History/{KEYWORD}`<br>
+(tsetmcLive) `https://tsetmc.com/instInfo/{KEYWORD}`<br>
 
 ### out:
-output file to save the data in `out/{OUT}.json`
+output file to save the data in `out/{OUT}.json`<br>
 if it was empty it uses the keyword
 
 ### excel:
