@@ -32,7 +32,7 @@ items = []
 time = 0
 while (time != 540):
     time = int(slider.get_attribute("aria-valuenow"))
-    logger.log(f"Reading {int(time/60)}:{time%60 if len(str(time%60)) == 2 else '0'+str(time%60)}")
+    logger.log(f"Reading {time//60}:{time%60 if len(str(time%60)) == 2 else '0'+str(time%60)}")
 
     pth = '/html/body/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/table/tr[1]'
     elm = driver.find_element(By.XPATH, pth)
