@@ -2,7 +2,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 from json import dumps
-from time import sleep
 
 from config import KEYWORD, OUT, SCROLL, SCROLL_AMOUNT
 from utilities import convertDigits, exists, Logger
