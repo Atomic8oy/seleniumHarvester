@@ -42,7 +42,7 @@ lawyers = []
 for code in codes:
     while True:
         try:
-            sleep(60.0)
+            sleep(120.0)
             logger.log(f"Getting {code}", True)
             driver.get(f"http://search-hamivakil.ir/Lawyer/{code}/")
 
@@ -68,7 +68,16 @@ for code in codes:
 
             break
         except NoSuchElementException:
-            continue
+            print("\a")
+        else:
+            logger.log(f"Writing the data")
+            with open(f"out/vakilGolestan.json", 'w') as outFile:
+                outFile.write(dumps(lawyers))
+            logger.done()
+
+            logger.log("Quiting the application", True)
+            driver.quit()
+            quit()
 
 logger.log(f"Writing the data")
 with open(f"out/vakilGolestan.json", 'w') as outFile:
