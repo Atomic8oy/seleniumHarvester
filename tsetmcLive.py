@@ -22,6 +22,7 @@ while "TSETMC" in driver.title:
 date = datetime.now().strftime("%Y%m%d")
 
 try:
+    logger.log("File already exists. appending...", True)
     file = open(f"out/{OUT}-{date}.json")
     history = loads(file.read())
     file.close()
