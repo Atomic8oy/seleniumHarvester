@@ -11,6 +11,19 @@ from config import KEYWORD, OUT
 logger = Logger()
 
 logger.log("Initializing")
+
+def save()-> None:
+    pyplot.clf()
+
+    y = numpy.array([sub["price"] for sub in history])
+
+    pyplot.plot(y)
+    pyplot.savefig(f"out/{OUT}-{date}.png")
+
+    file = open(f"out/{OUT}-{date}", 'w')
+    file.write(dumps(history))
+    file.close()
+
 driver = webdriver.Chrome()
 
 driver.get(f"https://tsetmc.com/instInfo/{KEYWORD}")
@@ -36,7 +49,7 @@ try:
 except:
     history = []
 
-save = 0
+_save = 0
 
 massElm = driver.find_element(By.XPATH, '//*[@id="d09"]/div/div')
 amountElm = driver.find_element(By.XPATH, '//*[@id="d08"]/div/div')
@@ -50,7 +63,7 @@ try:
         if lastAmount == int(amountElm.text.replace(",", "")):
             continue
 
-        save += 1
+        _save += 1
         price = int(driver.title.split(" ")[1].replace(",", ""))
         time = int(datetime.now().timestamp())
         
@@ -76,18 +89,10 @@ try:
         lastAmount = amount
         lastMass = mass
 
-        if save == 5:
-            pyplot.clf()
-
-            y = numpy.array([sub["price"] for sub in history])
-
-            pyplot.plot(y)
-            pyplot.savefig(f"out/{OUT}-{date}.png")
-
-            file = open(f"out/{OUT}-{date}.json", 'w')
-            file.write(dumps(history))
-            file.close()
-            save = 0
+        if _save == 5:
+            save()
+            
+            _save = 0
 
 except KeyboardInterrupt:
     logger.log(f"Saving the output in [out/{OUT}-{date}.json]")
