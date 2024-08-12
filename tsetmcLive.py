@@ -13,15 +13,16 @@ logger = Logger()
 logger.log("Initializing")
 
 def save()-> None:
-    logger("Saving")
+    logger.log("Saving")
     pyplot.clf()
 
+    x = numpy.array([datetime.fromtimestamp(sub['timestamp']) for sub in history])
     y = numpy.array([sub["price"] for sub in history])
 
-    pyplot.plot(y)
+    pyplot.plot(x, y)
     pyplot.savefig(f"out/{OUT}-{date}.png")
 
-    file = open(f"out/{OUT}-{date}", 'w')
+    file = open(f"out/{OUT}-{date}.json", 'w')
     file.write(dumps(history))
     file.close()
     logger.done()
