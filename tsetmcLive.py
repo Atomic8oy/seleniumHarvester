@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from datetime import datetime
 from json import dumps, loads
+from matplotlib import pyplot
+import numpy
 
 from utilities import Logger
 from config import KEYWORD, OUT
@@ -12,6 +14,11 @@ logger.log("Initializing")
 driver = webdriver.Chrome()
 
 driver.get(f"https://tsetmc.com/instInfo/{KEYWORD}")
+
+pyplot.title(OUT)
+pyplot.xlabel("ID")
+pyplot.ylabel("Price")
+pyplot.grid()
 logger.done()
 
 driver.implicitly_wait(10.0)
@@ -35,39 +42,48 @@ massElm = driver.find_element(By.XPATH, '//*[@id="d09"]/div/div')
 amountElm = driver.find_element(By.XPATH, '//*[@id="d08"]/div/div')
 
 price = None
-last = {
-    "timestamp": None,
-    "price": None,
-    "mass": 0,
-    "massChange": None,
-    "amount": None
-}
+lastMass = 0
+lastAmount = None
 
 try:
     while True:
-        if last["amount"] == int(amountElm.text.replace(",", "")):
+        if lastAmount == int(amountElm.text.replace(",", "")):
             continue
 
         save += 1
         price = int(driver.title.split(" ")[1].replace(",", ""))
         time = int(datetime.now().timestamp())
-
+        
         mass = float(massElm.text.replace("M", ""))
 
         amount = int(amountElm.text.replace(",", ""))
 
+        logger.log({
+            "timestamp": time,
+            "price": price,
+            "amount": amount,
+            "massChange": mass-lastMass,
+            "mass": mass
+        }, True)
+        history.append({
+            "timestamp": time,
+            "price": price,
+            "amount": amount,
+            "massChange": mass-lastMass,
+            "mass": mass
+        })
 
-        last["timestamp"] = time
-        last["price"] = price
-        last["amount"] = amount
-        last["massChange"] = mass-last["mass"]
-        last["mass"] = mass
+        lastAmount = amount
+        lastMass = mass
 
-        logger.log(last, True)
+        if save == 5:
+            pyplot.clf()
 
-        history.append(last)
-        
-        if save == 10:
+            y = numpy.array([sub["price"] for sub in history])
+
+            pyplot.plot(y)
+            pyplot.savefig(f"out/{OUT}-{date}.png")
+
             file = open(f"out/{OUT}-{date}.json", 'w')
             file.write(dumps(history))
             file.close()
