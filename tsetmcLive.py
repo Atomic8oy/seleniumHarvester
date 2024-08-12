@@ -13,6 +13,7 @@ logger = Logger()
 logger.log("Initializing")
 
 def save()-> None:
+    logger("Saving")
     pyplot.clf()
 
     y = numpy.array([sub["price"] for sub in history])
@@ -23,6 +24,7 @@ def save()-> None:
     file = open(f"out/{OUT}-{date}", 'w')
     file.write(dumps(history))
     file.close()
+    logger.done()
 
 driver = webdriver.Chrome()
 
@@ -95,7 +97,4 @@ try:
             _save = 0
 
 except KeyboardInterrupt:
-    logger.log(f"Saving the output in [out/{OUT}-{date}.json]")
-    with open(f"out/{OUT}-{date}.json", 'w') as file:
-        file.write(dumps(history))
-    logger.done()
+    save()
