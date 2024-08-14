@@ -4,13 +4,9 @@ from utilities import Logger
 logging = Logger()
 
 match WEBSITE:
-    case "digikala":
-        import digikala
-    case "divar":
-        import divar
-    case  "tsetmc":
+    case  "history":
         import tsetmc
-    case "tsetmcLive":
+    case "live":
         import tsetmcLive
     case _:
         raise(f"{WEBSITE} is not supported.\nCheck for typos or new updates.")
