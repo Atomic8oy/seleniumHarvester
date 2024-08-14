@@ -1,28 +1,8 @@
-# How to use
-* Go to `config.json` and change it based on what you want to do (There are instructions below)
-* Run `main.py` and get your output in `out/` folder
+# How to install
+1. Install python and pip
+2. Install the required libraries by using the following command:
+```pip install -r requirements.txt```
+3. Check and change the stuff in `config.py`
+4. Run `main.py` and you're good to go!
 
-# config.json instructions
-
-### target:
-The target website:
-digikala, divar, tsetmc, tsetmcLive
-
-### keyword: 
-(digikala) a keyword to search in digikala<br>
-(divar) city's name<br>
-(tsetmc) `https://www.tsetmc.com/History/{KEYWORD}`<br>
-(tsetmcLive) `https://tsetmc.com/instInfo/{KEYWORD}`<br>
-
-### out:
-output file to save the data in `out/{OUT}.json`<br>
-if it was empty it uses the keyword
-
-### excel:
-excel output, `true/false`
-
-### scroll:
-How many times the app scrolls down
-
-### scrollAmount:
-How much should app scroll down by pixels
+You can also check `/docs` to check the api documentation 
