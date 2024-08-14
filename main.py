@@ -1,20 +1,13 @@
-from config import WEBSITE, EXCEL
-from utilities import Logger
+from config import HOST, PORT
+from app import app
 
-logging = Logger()
+import uvicorn
 
-match WEBSITE:
-    case  "history":
-        import tsetmc
-    case "live":
-        import tsetmcLive
-    case _:
-        raise(f"{WEBSITE} is not supported.\nCheck for typos or new updates.")
+def main()-> None:
+    try:
+        uvicorn.run("main:app", host=HOST, port=PORT)
+    except FileNotFoundError: # to prevent error on removing unix sock
+        pass    
 
-if EXCEL:
-    from config import OUT
-    logging.log(f"Saving as excel in [out/{OUT}.json]")
-    import pandas
-
-    pandas.read_json(f"out/{OUT}.json").to_excel(f"out/{OUT}.xlsx")
-    logging.done()
+if __name__ == "__main__":
+    main()
