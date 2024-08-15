@@ -1,9 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 from app.tsetmc import get_stock_history
 
-__version__ = "0.2.0"
+__version__ = "0.2.0" # Software version
 
+# Initializing FastAPI
 app = FastAPI(
     title="Untitled",
     version=__version__,
@@ -11,8 +12,10 @@ app = FastAPI(
     redoc_url='/redoc'
 )
 
+# Initializing a GET API in /history
 @app.get("/history")
-def get_history(keyword:str)-> dict[list]:
+def get_history(keyword:str)-> dict:
+    # Checking if keyword is valid
     passed = True
     for x in range(len(keyword)):
         if x < 17:
@@ -32,4 +35,6 @@ def get_history(keyword:str)-> dict[list]:
         passed = False
     
     if passed:
-        return {"history": get_stock_history(keyword)}
+        return {"history": get_stock_history(keyword)} # Scraping data and returning it to the user
+    else:
+        raise HTTPException(400, "Invalid keyword")

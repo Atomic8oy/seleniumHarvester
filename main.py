@@ -5,7 +5,7 @@ import uvicorn
 
 def main()-> None:
     try:
-        uvicorn.run("main:app", host=HOST, port=PORT)
+        uvicorn.run("main:app", host=HOST, port=PORT) # Starting Uvicorn and FastAPI
     except FileNotFoundError: # to prevent error on removing unix sock
         pass    
 

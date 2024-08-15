@@ -1,3 +1,6 @@
+"""
+THIS FILE IS USELESS AT THIS VERSION
+"""
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from datetime import datetime
