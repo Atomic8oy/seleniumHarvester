@@ -1,6 +1,8 @@
 from fastapi import FastAPI, HTTPException
+from json import loads, dumps
 
 from app.tsetmc import get_stock_history
+from config import SAVE_OUTPUT
 
 __version__ = "0.2.0" # Software version
 
@@ -35,6 +37,19 @@ def get_history(keyword:str)-> dict:
         passed = False
     
     if passed:
-        return {"history": get_stock_history(keyword)} # Scraping data and returning it to the user
+        try:
+            # If the file already exists in history folder just return it otherwise scarping the data
+            file = open("history/" + keyword.replace("/", "") + ".json", 'r')
+            data = loads(file.read())
+            file.close()
+        except FileNotFoundError:    
+            data = get_stock_history(keyword) # Scraping data and returning it to the user
+            
+            if SAVE_OUTPUT:
+                file = open("history/" + keyword.replace("/", "") + ".json", 'w')
+                file.write(dumps(data))
+                file.close()
+        
+        return {"history": data}
     else:
         raise HTTPException(400, "Invalid keyword")
