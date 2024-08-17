@@ -5,7 +5,7 @@ from selenium import webdriver
 from time import sleep
 
 # Defining the operation as a function cuz I'm lazy
-def get_stock_history(keyword:str)-> dict:
+def get_stock_history(keyword:str)-> list:
     driver = webdriver.Chrome()
 
     driver.implicitly_wait(5.0)
