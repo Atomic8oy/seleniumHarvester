@@ -66,7 +66,8 @@ def get_stock_history(keyword:str)-> list:
                 "transactionsMass": int(transactionsMass.replace(",", "")),
                 "transactionsWorth": int(transactionsWorth.replace(",", ""))
             })
-        except ValueError:
+        except ValueError: # uhhh idk how to explain this part but its important
+            driver.close()
             return []
 
         # Hitting right arrow to time travel
