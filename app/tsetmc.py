@@ -57,14 +57,17 @@ def get_stock_history(keyword:str)-> list:
         ).text.replace("ارزش معاملات ", "")
 
         # Adding the new data at start of the list
-        items.insert(0, {
-            "time": time ,
-            "price": int(price.replace(",", "")), 
-            "change": change, 
-            "transactionCount": int(transactionsCount.replace(",", "")),
-            "transactionsMass": int(transactionsMass.replace(",", "")),
-            "transactionsWorth": int(transactionsWorth.replace(",", ""))
-        })
+        try:
+            items.insert(0, {
+                "time": time ,
+                "price": int(price.replace(",", "")), 
+                "change": change, 
+                "transactionCount": int(transactionsCount.replace(",", "")),
+                "transactionsMass": int(transactionsMass.replace(",", "")),
+                "transactionsWorth": int(transactionsWorth.replace(",", ""))
+            })
+        except ValueError:
+            return []
 
         # Hitting right arrow to time travel
         slider.send_keys(Keys.RIGHT)

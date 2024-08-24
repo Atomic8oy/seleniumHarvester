@@ -45,6 +45,9 @@ def get_history(keyword:str)-> dict:
         except FileNotFoundError:    
             data = get_stock_history(keyword) # Scraping data and returning it to the user
             
+            if not data:
+                raise HTTPException(404)
+
             if SAVE_OUTPUT:
                 file = open("history/" + keyword.replace("/", "") + ".json", 'w')
                 file.write(dumps(data))
